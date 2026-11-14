@@ -1,0 +1,28 @@
+{
+  "split": "dev",
+  "config_name": "tfidf",
+  "config": {
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 2600,
+    "max_searches": 3
+  },
+  "model": "gpt-4.1-mini-2025-04-14",
+  "benchmark_sha256": "caa87581a1fca84eeaa20c71cd5cbe3f09470bceaa71fa49a1396dfa33978356",
+  "code_sha256": {
+    "rag_agent.py": "563f3a8ffaeb1bb020caa6269a6dbe968b70927cd9f59862211637e1cd495a87",
+    "dense_retrieval.py": "04b4ed11202b215a32e44b5e74319d171209b520a0f3052041246296cdafb348",
+    "lexical_retrieval.py": "644c1c7a9c6a9edb0397e31ea27e03454c40cb15eb0a386f3114bcee5446ed09",
+    "hybrid_retrieval.py": "4043f2cb6a59779543914b326acc3eb016b97b5b53bee8a3fb8a27e1d8b24428",
+    "benchmark_retrieval.py": "b94fff96962b944126e4af6f77bed23928b591b9e465fc06ee3fbd7c80d7b4a0",
+    "run_agent_dev.py": "d1d3102fe82276d8d502f9b098fa6f97e921a80d6c5fd5887557d8f1d520d5bf"
+  },
+  "source_review_status": "pending",
+  "purpose": "Real-agent dev run before further improvements.",
+  "notes": [
+    "Only question text enters run_rag.",
+    "Gold and answerability labels are not passed to the agent.",
+    "Human review is required; statuses are not quality scores.",
+    "Provider errors are retained separately."
+  ]
+}

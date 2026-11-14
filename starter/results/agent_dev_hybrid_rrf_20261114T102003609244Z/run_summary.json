@@ -1,0 +1,17 @@
+{
+  "config": "hybrid_rrf",
+  "cases": 17,
+  "answered_status": 14,
+  "abstain_status": 2,
+  "errors": 1,
+  "tool_use": {
+    "n": 16,
+    "N": 16
+  },
+  "model_responses_received": 69,
+  "model_prompt_tokens": 75800,
+  "model_completion_tokens": 7454,
+  "citation_validation_failures": 19,
+  "elapsed_seconds": 120.68394679999437,
+  "quality_metrics": "Pending human review."
+}

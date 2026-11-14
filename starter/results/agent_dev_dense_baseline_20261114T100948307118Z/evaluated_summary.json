@@ -1,0 +1,46 @@
+{
+  "cases": 17,
+  "tool_use": {
+    "n": 16,
+    "N": 16
+  },
+  "grounded_answer": {
+    "0": 0,
+    "1": 3,
+    "2": 12,
+    "N": 15,
+    "mean": 1.8
+  },
+  "citation_validity": {
+    "n": 15,
+    "N": 18
+  },
+  "answer_citation_coverage": {
+    "n": 15,
+    "N": 15
+  },
+  "abstention": {
+    "n": 1,
+    "N": 1
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 15
+  },
+  "execution_errors": 1,
+  "context_review_non_error_cases": {
+    "0": 0,
+    "1": 2,
+    "2": 13,
+    "N": 15,
+    "note": "Only reviewed non-error answerable cases. This is not the context rate for the entire benchmark."
+  },
+  "errors_detail": [
+    {
+      "query_id": "dev_u01",
+      "error_type": "ValueError",
+      "error": "Abstention must have no citations."
+    }
+  ],
+  "quality_denominator_note": "Starter quality metrics exclude execution-error cases. Report execution errors alongside quality metrics; do not describe the conditional mean as overall accuracy."
+}

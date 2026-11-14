@@ -1,0 +1,11 @@
+{
+  "config": "hybrid_rrf",
+  "cases": 7,
+  "answered_status": 5,
+  "abstain_status": 2,
+  "execution_errors": 0,
+  "model_prompt_tokens": 24816,
+  "model_completion_tokens": 1965,
+  "elapsed_seconds": 37.278349699998216,
+  "quality_metrics": "Pending manual test review."
+}

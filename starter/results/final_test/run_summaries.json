@@ -1,0 +1,24 @@
+[
+  {
+    "config": "dense_baseline",
+    "cases": 7,
+    "answered_status": 5,
+    "abstain_status": 2,
+    "execution_errors": 0,
+    "model_prompt_tokens": 25365,
+    "model_completion_tokens": 1969,
+    "elapsed_seconds": 47.87494919998426,
+    "quality_metrics": "Pending manual test review."
+  },
+  {
+    "config": "hybrid_rrf",
+    "cases": 7,
+    "answered_status": 5,
+    "abstain_status": 2,
+    "execution_errors": 0,
+    "model_prompt_tokens": 24816,
+    "model_completion_tokens": 1965,
+    "elapsed_seconds": 37.278349699998216,
+    "quality_metrics": "Pending manual test review."
+  }
+]

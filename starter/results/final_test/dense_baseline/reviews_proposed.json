@@ -1,0 +1,86 @@
+{
+  "status": "user_reviewed",
+  "reviews": [
+    {
+      "query_id": "t01",
+      "reason": "Trang PDF 18 hỗ trợ 101 website cho phép tạo tài khoản cá nhân.",
+      "review_status": "user_reviewed",
+      "user_confirmed": true,
+      "review_basis": "User-confirmed comparison of saved test answer, actual context and source evidence.",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "t02",
+      "reason": "Trang PDF 24 hỗ trợ mức tăng khoảng một phần ba, đúng phạm vi chuyến bay và thời gian.",
+      "review_status": "user_reviewed",
+      "user_confirmed": true,
+      "review_basis": "User-confirmed comparison of saved test answer, actual context and source evidence.",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "t03",
+      "reason": "Trang PDF 26 hỗ trợ TransferWise và Xoom giảm phí tối đa 90%.",
+      "review_status": "user_reviewed",
+      "user_confirmed": true,
+      "review_basis": "User-confirmed comparison of saved test answer, actual context and source evidence.",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "t04",
+      "reason": "Trang PDF 26 hỗ trợ Instagram có 13 nhân viên khi Facebook mua năm 2012.",
+      "review_status": "user_reviewed",
+      "user_confirmed": true,
+      "review_basis": "User-confirmed comparison of saved test answer, actual context and source evidence.",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "t05",
+      "reason": "Trang PDF 27 hỗ trợ mức giảm tổn thất sau thu hoạch 21–35% tại Pakistan.",
+      "review_status": "user_reviewed",
+      "user_confirmed": true,
+      "review_basis": "User-confirmed comparison of saved test answer, actual context and source evidence.",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "test_u01",
+      "reason": "Câu trả lời từ chối cung cấp mã nguồn không có trong nguồn, không bịa code.",
+      "review_status": "user_reviewed",
+      "user_confirmed": true,
+      "review_basis": "User-confirmed comparison of saved test answer, actual context and source evidence.",
+      "context_grade": null,
+      "citation_support": [],
+      "abstention_correct": true
+    },
+    {
+      "query_id": "test_u02",
+      "reason": "Câu trả lời từ chối cung cấp danh sách tên không có trong nguồn, không bịa tên.",
+      "review_status": "user_reviewed",
+      "user_confirmed": true,
+      "review_basis": "User-confirmed comparison of saved test answer, actual context and source evidence.",
+      "context_grade": null,
+      "citation_support": [],
+      "abstention_correct": true
+    }
+  ],
+  "errors_reported_separately": []
+}

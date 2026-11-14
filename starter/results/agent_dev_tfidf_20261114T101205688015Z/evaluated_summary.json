@@ -1,0 +1,56 @@
+{
+  "cases": 17,
+  "tool_use": {
+    "n": 14,
+    "N": 14
+  },
+  "grounded_answer": {
+    "0": 0,
+    "1": 2,
+    "2": 10,
+    "N": 12,
+    "mean": 1.8333333333333333
+  },
+  "citation_validity": {
+    "n": 11,
+    "N": 13
+  },
+  "answer_citation_coverage": {
+    "n": 12,
+    "N": 12
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 12
+  },
+  "execution_errors": 3,
+  "context_review_non_error_cases": {
+    "0": 0,
+    "1": 1,
+    "2": 11,
+    "N": 12,
+    "note": "Only reviewed non-error answerable cases. This is not the context rate for the entire benchmark."
+  },
+  "errors_detail": [
+    {
+      "query_id": "q01",
+      "error_type": "ValueError",
+      "error": "Verifier returned an invalid evidence quotation."
+    },
+    {
+      "query_id": "q07",
+      "error_type": "ValueError",
+      "error": "Verifier returned an invalid evidence quotation."
+    },
+    {
+      "query_id": "q14",
+      "error_type": "ValueError",
+      "error": "Verifier returned an invalid evidence quotation."
+    }
+  ],
+  "quality_denominator_note": "Starter quality metrics exclude execution-error cases. Report execution errors alongside quality metrics; do not describe the conditional mean as overall accuracy."
+}

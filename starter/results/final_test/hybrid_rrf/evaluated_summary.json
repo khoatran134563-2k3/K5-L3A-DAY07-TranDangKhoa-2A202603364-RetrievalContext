@@ -1,0 +1,40 @@
+{
+  "cases": 7,
+  "tool_use": {
+    "n": 7,
+    "N": 7
+  },
+  "grounded_answer": {
+    "0": 0,
+    "1": 0,
+    "2": 5,
+    "N": 5,
+    "mean": 2.0
+  },
+  "citation_validity": {
+    "n": 5,
+    "N": 5
+  },
+  "answer_citation_coverage": {
+    "n": 5,
+    "N": 5
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 5
+  },
+  "execution_errors": 0,
+  "context_review_non_error_cases": {
+    "0": 0,
+    "1": 0,
+    "2": 5,
+    "N": 5,
+    "note": "Only reviewed non-error answerable cases. This is not the context rate for the entire benchmark."
+  },
+  "errors_detail": [],
+  "quality_denominator_note": "Starter quality metrics exclude execution-error cases. Report execution errors alongside quality metrics; do not describe the conditional mean as overall accuracy."
+}

@@ -31,3 +31,8 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+
+## B�i n?p c� nh�n
+
+- [Hu?ng d?n ch?y v� d?c k?t qu?](RUN_STUDENT.md)
+- [B�o c�o Tr?n �ang Khoa](report/individual/2A202603364_TranDangKhoa.md)

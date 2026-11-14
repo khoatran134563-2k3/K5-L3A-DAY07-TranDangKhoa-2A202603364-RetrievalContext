@@ -1,0 +1,199 @@
+{
+  "status": "proposal_not_final_human_labels",
+  "reviews": [
+    {
+      "query_id": "q01",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu câu trả lời với chunk db854b66 tại trang PDF 30 trong context. Đoạn này nêu rõ institutions that are accountable và hỗ trợ các điều kiện bổ sung trong câu trả lời. Citation trỏ đúng chunk.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q02",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu với chunk db854b66 tại trang PDF 30. Đoạn này nêu trực tiếp việc môi trường kinh doanh cản trở cạnh tranh có thể dẫn đến tập trung quyền lực thị trường, độc quyền và cản trở đổi mới. Citation hỗ trợ câu trả lời dù khác vị trí gold ban đầu.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q03",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk ca500e41 tại trang PDF 16. Nguồn nêu khoảng 4 tỷ người không có internet, khớp câu trả lời và citation.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q04",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk b2ce1cce tại trang PDF 18. Nguồn nêu đến năm 2014, cả 193 quốc gia thành viên UN có website quốc gia.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q05",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk b0a3659c tại trang PDF 19. Nguồn xác nhận phụ nữ ít có khả năng sử dụng hoặc sở hữu công nghệ số hơn nam giới.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q06",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk 65d0721e tại trang PDF 20. Nguồn nêu gần một phần năm dân số thế giới không biết chữ.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q07",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk 551a0aa1 tại trang PDF 21. Nguồn hỗ trợ kết luận về giao dịch không diễn ra khi thiếu tin cậy, minh bạch và có bất cân xứng thông tin.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q08",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk fda31096 tại trang PDF 23. Nguồn hỗ trợ sự khác biệt giữa chi phí cố định và chi phí biên, cùng phần giải thích về lợi suất quy mô và hiệu ứng mạng.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q09",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk 210ca4fd tại trang PDF 24. Nguồn nêu UPS dùng thuật toán tránh rẽ trái, tiết kiệm thời gian và khoảng 4,5 triệu lít nhiên liệu mỗi năm.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q10",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk 5e7828b8 tại trang PDF 25. Câu trả lời đúng mức 3,6 điểm phần trăm tăng trưởng TFP và đúng nhóm so sánh; không nhầm thành 3,6 phần trăm.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q11",
+      "citation_support": [
+        false
+      ],
+      "context_grade": 1,
+      "reason": "Câu trả lời nêu đúng 3–5%, nhưng context Hybrid thiếu chunk 3c5eced6 để xác định this sector là ngành ICT. Citation chỉ trỏ tới chunk d207fb8f chứa con số. Theo tiêu chí cần cả hai chunk đã khai báo, bằng chứng và citation chưa đầy đủ.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 1
+    },
+    {
+      "query_id": "q12",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk 654ee5e6 tại trang PDF 27. Nguồn nêu nông dân Honduras nhận thông tin giá qua SMS báo cáo giá nhận được tăng 12,5%.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q13",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Đã đối chiếu chunk a1d363b6 tại trang PDF 29. Nguồn hỗ trợ cả 62.000 lao động ma và mức tiết kiệm 1 tỷ USD hằng năm.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q15",
+      "citation_support": [
+        false
+      ],
+      "context_grade": 2,
+      "reason": "Context tại trang PDF 34 đủ để giải thích quan hệ giữa lương thấp và đầu tư công nghệ kém sinh lời. Tuy nhiên, câu trả lời thêm nhận định rằng công việc thủ công không thường quy khó được công nghệ mô phỏng hơn. Citation hiện tại chưa hỗ trợ đầy đủ nhận định bổ sung này, nên chấm câu trả lời đúng một phần.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 1
+    },
+    {
+      "query_id": "dev_u01",
+      "citation_support": [],
+      "context_grade": null,
+      "reason": "Câu hỏi yêu cầu số liệu Nigeria trong năm 2025. Context chỉ có ví dụ lịch sử trong báo cáo năm 2016, không xác nhận số liệu cho năm được hỏi. Agent cuối cùng nêu không đủ bằng chứng, không đưa số liệu thay thế và không có citation.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "abstention_correct": true
+    },
+    {
+      "query_id": "dev_u02",
+      "citation_support": [],
+      "context_grade": null,
+      "reason": "Câu hỏi yêu cầu chênh lệch tăng trưởng TFP trong năm 2025. Số liệu 3,6 điểm phần trăm trong context là kết quả lịch sử, không chứng minh năm được hỏi. Agent cuối cùng từ chối vì thiếu bằng chứng, không dùng số liệu lịch sử thay thế và không có citation.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "abstention_correct": true
+    }
+  ],
+  "errors_reported_separately": [
+    {
+      "query_id": "q14",
+      "error": "Verifier returned an invalid evidence quotation."
+    }
+  ]
+}

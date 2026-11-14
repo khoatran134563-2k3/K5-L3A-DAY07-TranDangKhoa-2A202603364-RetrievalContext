@@ -1,0 +1,141 @@
+[
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "According to the report, by 2014 how many UN member states' national websites enabled citizens to create personal online accounts?",
+    "answerable": true,
+    "expected_answer": "101.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 18,
+        "evidence": "By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create per- sonal online accounts, 73 to file income taxes, and 60 to register a business."
+      }
+    ],
+    "filter": {},
+    "evidence_mode": "single_chunk_alternatives",
+    "matching_chunk_ids": [
+      "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c"
+    ],
+    "source_review_basis": "Corpus evidence and exported original-PDF text."
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "By approximately how much did sophisticated reservation and pricing algorithms increase load factors for U.S. domestic flights between 1993 and 2007?",
+    "answerable": true,
+    "expected_answer": "By about one-third.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 24,
+        "evidence": "In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007."
+      }
+    ],
+    "filter": {},
+    "evidence_mode": "single_chunk_alternatives",
+    "matching_chunk_ids": [
+      "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d"
+    ],
+    "source_review_basis": "Corpus evidence and exported original-PDF text."
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "According to the report, by up to what percentage did TransferWise and Xoom cut the prices of international currency transfers?",
+    "answerable": true,
+    "expected_answer": "Up to 90 percent.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 26,
+        "evidence": "Similarly, TransferWise and Xoom have reduced regulatory rents in the financial sector and cut the prices of international currency transfers by up to 90 percent."
+      }
+    ],
+    "filter": {},
+    "evidence_mode": "single_chunk_alternatives",
+    "matching_chunk_ids": [
+      "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49"
+    ],
+    "source_review_basis": "Corpus evidence and exported original-PDF text."
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "How many employees did Instagram have in 2012 when Facebook bought it?",
+    "answerable": true,
+    "expected_answer": "13 employees.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 26,
+        "evidence": "Instagram, a photo sharing app, had just 13 employees in 2012 when it was bought by Facebook for US$1 billion."
+      }
+    ],
+    "filter": {},
+    "evidence_mode": "single_chunk_alternatives",
+    "matching_chunk_ids": [
+      "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b"
+    ],
+    "source_review_basis": "Corpus evidence and exported original-PDF text."
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "In Pakistan, by what percentage range did the shift enabled by mobile phones reduce postharvest losses from the most perishable crops?",
+    "answerable": true,
+    "expected_answer": "By 21–35 percent.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 27,
+        "evidence": "In Pakistan, mobile phones allow farmers to shift to more perishable but higher return cash crops, reducing postharvest losses from the most perishable crops by 21–35 percent."
+      }
+    ],
+    "filter": {},
+    "evidence_mode": "single_chunk_alternatives",
+    "matching_chunk_ids": [
+      "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507"
+    ],
+    "source_review_basis": "Corpus evidence and exported original-PDF text."
+  },
+  {
+    "id": "test_u01",
+    "split": "test",
+    "question": "What exact implementation source code does the indexed report provide for UPS's routing algorithm that avoids left turns?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The indexed corpus describes the UPS routing practice and its benefits, but does not supply implementation source code. General routing knowledge or invented code would not answer a request for code provided by this source.",
+    "absence_check": {
+      "scope": "Indexed 132-chunk Day 6 strategy B corpus.",
+      "terms_reviewed": [
+        "UPS",
+        "routing",
+        "source code",
+        "pseudocode"
+      ],
+      "relevant_pdf_pages": [
+        24
+      ]
+    }
+  },
+  {
+    "id": "test_u02",
+    "split": "test",
+    "question": "What are the full names of all 62,000 public-sector ghost workers identified by Nigeria's e-ID in the indexed report?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The indexed corpus gives the aggregate count and annual saving, but contains no full list of individual names. Repeating the count is not an answer to the requested list.",
+    "absence_check": {
+      "scope": "Indexed 132-chunk Day 6 strategy B corpus.",
+      "terms_reviewed": [
+        "Nigeria",
+        "e-ID",
+        "ghost workers"
+      ],
+      "relevant_pdf_pages": [
+        29
+      ]
+    }
+  }
+]

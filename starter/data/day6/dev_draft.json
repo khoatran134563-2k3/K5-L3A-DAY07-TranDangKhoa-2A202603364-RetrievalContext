@@ -1,0 +1,280 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What institutional condition is included in the report's analog complements?",
+    "answerable": true,
+    "expected_answer": "Institutions must be accountable.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 14,
+        "evidence": "and by ensuring that institutions are accountable."
+      },
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 30,
+        "evidence": "The main ones are regulations that ensure a high degree of competition, skills that leverage technology, and institutions that are accountable (figure O.13)."
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What can happen to internet markets when a competitive business environment is absent?",
+    "answerable": true,
+    "expected_answer": "Markets can become more concentrated, benefiting incumbent firms.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 15,
+        "evidence": "And because the economics of the internet favor natural monopolies, the absence of a competitive business environment can result in more concentrated markets, benefiting incumbent firms."
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "According to the report, approximately how many people worldwide lacked any internet access?",
+    "answerable": true,
+    "expected_answer": "Some 4 billion people.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 16,
+        "evidence": "Worldwide, some 4 billion people do not have any internet access"
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "By 2014, how many United Nations member states had national websites?",
+    "answerable": true,
+    "expected_answer": "All 193 member states.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 18,
+        "evidence": "By 2014, all 193 member states of the United Nations (UN) had national websites"
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Within the section 'Digital transformations—digital divides', how does women's use or ownership of digital technologies compare with men's?",
+    "answerable": true,
+    "expected_answer": "Women are less likely than men to use or own digital technologies.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 19,
+        "evidence": "Women are less likely than men to use or own digital technologies."
+      }
+    ],
+    "filter": {
+      "sections": {
+        "contains": "digital_divides"
+      }
+    },
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "According to the report, approximately what fraction of the world's population was illiterate?",
+    "answerable": true,
+    "expected_answer": "Nearly one-fifth.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 20,
+        "evidence": "Given that nearly one-fifth of the world’s population is illiterate"
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What can happen to transactions when trust and transparency are absent?",
+    "answerable": true,
+    "expected_answer": "Many transactions do not take place.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 21,
+        "evidence": "in the absence of trust and transparency, many transactions do not take place."
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "How does the report contrast the fixed cost of building a digital platform with the marginal cost of adding a user?",
+    "answerable": true,
+    "expected_answer": "The fixed cost may be large, while the marginal cost of an additional transaction or user is tiny.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 23,
+        "evidence": "The fixed cost of building the platform may be large, but the marginal cost of carrying out another transaction or adding another user is tiny."
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What routing practice does the report describe UPS using?",
+    "answerable": true,
+    "expected_answer": "Intelligent routing algorithms that avoid left turns.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 24,
+        "evidence": "The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns"
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Within 'The dividends: Growth, jobs, and service delivery', how much higher was TFP growth on average for Vietnamese firms using e-commerce?",
+    "answerable": true,
+    "expected_answer": "3.6 percentage points higher than firms not using e-commerce.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 25,
+        "evidence": "Vietnamese firms using e-commerce had on average 3.6 percentage point higher TFP growth than firms that did not use it"
+      }
+    ],
+    "filter": {
+      "sections": {
+        "contains": "digital_dividends"
+      }
+    },
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "According to the report, approximately what share of employment was in the ICT sector in OECD countries?",
+    "answerable": true,
+    "evidence_mode": "all_required_chunks",
+    "required_chunk_ids": [
+      "3c5eced6c44e63d2c8bdaee49ea6bd411d8a3cb08bb9a94f617483a38d619fa9",
+      "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b"
+    ],
+    "expected_answer": "About 3–5 percent.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 26,
+        "evidence": "In developing countries, the ICT sector accounts for only about 1 percent of the workforce on average: less than 0.5 percent in Bolivia and Ghana, and just under 2 percent in Colombia and Sri Lanka. In OECD countries, about 3–5 percent of the employ- ment is in this sector."
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What price increase did Honduran farmers report after receiving market price information by SMS?",
+    "answerable": true,
+    "expected_answer": "A 12.5 percent increase in prices received.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 27,
+        "evidence": "In Honduras, farmers who got market price information via short message service (SMS) reported an increase of 12.5 percent in prices received."
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How many public-sector ghost workers did Nigeria's e-ID reveal, and what annual saving does the report give?",
+    "answerable": true,
+    "expected_answer": "62,000 ghost workers and US$1 billion saved annually.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 29,
+        "evidence": "Nigeria’s e-ID revealed 62,000 public sector “ghost workers,” saving US$1 billion annually."
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "How does the report describe the general effect of existing and new internet-based business models on consumers?",
+    "answerable": true,
+    "expected_answer": "Consumers have generally benefited.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 31,
+        "evidence": "Consumers have generally benefited from the internet-based busi- ness models of existing and new firms."
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Why can low wage rates make investment in automation less profitable in lower-income countries?",
+    "answerable": true,
+    "expected_answer": "Labor remains inexpensive, with a larger share of manual nonroutine work.",
+    "gold": [
+      {
+        "source_id": "world_bank_wdr2016_overview",
+        "page": 34,
+        "evidence": "And wage rates are still low, with a larger share of manual nonroutine labor, so investments in technology will be less profitable for firms."
+      }
+    ],
+    "filter": {},
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "dev_u01",
+    "split": "dev",
+    "question": "How many public-sector ghost workers did Nigeria's e-ID identify during calendar year 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The indexed corpus is a 2016 report. Its historical Nigeria example does not establish the number identified during calendar year 2025.",
+    "absence_review_plan": "Read all Nigeria, e-ID and ghost-worker passages in the indexed corpus; check dates and scope against the source PDF.",
+    "review_status": "needs_source_review"
+  },
+  {
+    "id": "dev_u02",
+    "split": "dev",
+    "question": "What was the average TFP growth advantage of Vietnamese firms using e-commerce during calendar year 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The indexed corpus is a 2016 report. Its historical Vietnamese e-commerce result does not establish an estimate for calendar year 2025.",
+    "absence_review_plan": "Read all Vietnam, Vietnamese, e-commerce and TFP passages in the indexed corpus; check dates and scope against the source PDF.",
+    "review_status": "needs_source_review"
+  }
+]

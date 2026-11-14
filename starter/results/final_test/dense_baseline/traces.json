@@ -1,0 +1,2406 @@
+[
+  {
+    "status": "answered",
+    "answer": "By 2014, 101 of the 193 United Nations member states had national websites that enabled citizens to create personal online accounts [b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c].",
+    "citations": [
+      "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "step": 1,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 486,
+          "completion_tokens": 23,
+          "total_tokens": 509,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 2.5329508000068017,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_i5XSfG7OJtWLm8zN4kjetvYV",
+              "type": "function",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"UN member states national websites personal online accounts 2014\"}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_i5XSfG7OJtWLm8zN4kjetvYV",
+        "arguments": {
+          "query": "UN member states national websites personal online accounts 2014"
+        },
+        "proposed_query": "UN member states national websites personal online accounts 2014",
+        "query": "According to the report, by 2014 how many UN member states' national websites enabled citizens to create personal online accounts?",
+        "filters": null,
+        "results": [
+          {
+            "id": "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 18,
+            "text": " But adoption rates for more sophisti- cated technologies such as secure servers, enterprise network, inventory management, and e-commerce are much lower in most developing countries. Governments are increasingly going digital, and a greater share of government jobs in developing coun- tries is ICT-intensive than in the private sector. By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create per- sonal online accounts, 73 to file income taxes, and 60 to register a business. For the most common core gov- ernment administrative systems, 190 member states had automated financial management, 179 used such systems for customs processing, and 159 for tax man- agement.",
+            "metadata": {
+              "end_char": 2243,
+              "language": "en",
+              "sections": [
+                "digital_divides"
+              ],
+              "start_char": 1518,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.6188818759855022,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 18,
+            "text": " And 148 of them had some form of digital identification, and 20 had multipurpose digital iden- tification platforms. So far, developing countries have invested more in automating back-office functions than in services directed at citizens and businesses. The lives of the majority of the world’s people remain largely untouched by the digital revolution. Only around 15 percent can afford access to broadband internet. Mobile phones, reaching almost four-fifths of the world’s people, provide the main form of inter- net access in developing countries. But even then, nearly 2 billion people do not own a mobile phone, and nearly 60 percent of the world’s population has no access to the internet. The world’s offline population is",
+            "metadata": {
+              "end_char": 2975,
+              "language": "en",
+              "sections": [
+                "digital_divides"
+              ],
+              "start_char": 2243,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.4269508910264532,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 29,
+            "text": " Where civil registration systems are weak or non- existent, many of the poor are simply not counted. Digital identification can help overcome barriers to participation. Many countries have introduced general- purpose digital identity (ID) schemes or specific systems for elections or to manage postcon- flict transfers—with numerous benefits, including making the public sector more efficient. Nearly 900 million Indians have been issued digital IDs in the past five years, which they are using to open bank accounts, monitor attendance of civil servants, and identify recipients of government subsidies. Nigeria’s e-ID revealed 62,000 public sector “ghost workers,” saving US$1 billion annually.",
+            "metadata": {
+              "end_char": 1400,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 703,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.4051650360921977,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 18\n But adoption rates for more sophisti- cated technologies such as secure servers, enterprise network, inventory management, and e-commerce are much lower in most developing countries. Governments are increasingly going digital, and a greater share of government jobs in developing coun- tries is ICT-intensive than in the private sector. By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create per- sonal online accounts, 73 to file income taxes, and 60 to register a business. For the most common core gov- ernment administrative systems, 190 member states had automated financial management, 179 used such systems for customs processing, and 159 for tax man- agement.\n\n[4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 18\n And 148 of them had some form of digital identification, and 20 had multipurpose digital iden- tification platforms. So far, developing countries have invested more in automating back-office functions than in services directed at citizens and businesses. The lives of the majority of the world’s people remain largely untouched by the digital revolution. Only around 15 percent can afford access to broadband internet. Mobile phones, reaching almost four-fifths of the world’s people, provide the main form of inter- net access in developing countries. But even then, nearly 2 billion people do not own a mobile phone, and nearly 60 percent of the world’s population has no access to the internet. The world’s offline population is\n\n[a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 29\n Where civil registration systems are weak or non- existent, many of the poor are simply not counted. Digital identification can help overcome barriers to participation. Many countries have introduced general- purpose digital identity (ID) schemes or specific systems for elections or to manage postcon- flict transfers—with numerous benefits, including making the public sector more efficient. Nearly 900 million Indians have been issued digital IDs in the past five years, which they are using to open bank accounts, monitor attendance of civil servants, and identify recipients of government subsidies. Nigeria’s e-ID revealed 62,000 public sector “ghost workers,” saving US$1 billion annually.",
+        "context_ids": [
+          "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c",
+          "4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7",
+          "a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605"
+        ],
+        "embedding_usage": {
+          "embedding_model": "text-embedding-3-small",
+          "cache_hit": false,
+          "api_requests": 1,
+          "total_tokens": 25
+        },
+        "component_trace": null,
+        "elapsed_seconds": 3.120634799997788
+      },
+      {
+        "event": "model",
+        "step": 2,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1453,
+          "completion_tokens": 87,
+          "total_tokens": 1540,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 2.617257599995355,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_33N9yY3yNsABcDXU6GOjOhoB",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"By 2014, 101 of the 193 United Nations member states had national websites that enabled citizens to create personal online accounts.\",\"citations\":[\"b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "citation_validation_failed",
+        "submitted": {
+          "status": "answered",
+          "answer": "By 2014, 101 of the 193 United Nations member states had national websites that enabled citizens to create personal online accounts.",
+          "citations": [
+            "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c"
+          ]
+        },
+        "available_ids": [
+          "4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7",
+          "a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605",
+          "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c"
+        ],
+        "inline_ids": [],
+        "repair_attempts_used": 0
+      },
+      {
+        "event": "model",
+        "step": 3,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1804,
+          "completion_tokens": 129,
+          "total_tokens": 1933,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 2.6504014000020106,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_7rFeAIUiR47V35zKOuU5i9NP",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"By 2014, 101 of the 193 United Nations member states had national websites that enabled citizens to create personal online accounts [b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c].\",\"citations\":[\"b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "model",
+        "phase": "evidence_verification",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 946,
+          "completion_tokens": 135,
+          "total_tokens": 1081,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_2sQyesznR5jNxBtOHzTeR77T",
+              "type": "function",
+              "function": {
+                "name": "assess_evidence",
+                "arguments": "{\"supported\":true,\"reason\":\"The proposed answer correctly states the number of UN member states' national websites that enabled citizens to create personal online accounts by 2014, matching the information in the provided context.\",\"evidence\":[{\"chunk_id\":\"b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c\",\"quote\":\"By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create personal online accounts\"}]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        },
+        "elapsed_seconds": 1.9828159999960917
+      },
+      {
+        "event": "evidence_verification",
+        "verdict": {
+          "supported": true,
+          "reason": "The proposed answer correctly states the number of UN member states' national websites that enabled citizens to create personal online accounts by 2014, matching the information in the provided context.",
+          "evidence": [
+            {
+              "chunk_id": "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c",
+              "quote": "By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create personal online accounts"
+            }
+          ]
+        }
+      },
+      {
+        "event": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "By 2014, 101 of the 193 United Nations member states had national websites that enabled citizens to create personal online accounts [b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c].",
+          "citations": [
+            "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c"
+          ]
+        }
+      }
+    ],
+    "search_count": 1,
+    "final_context": "[b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 18\n But adoption rates for more sophisti- cated technologies such as secure servers, enterprise network, inventory management, and e-commerce are much lower in most developing countries. Governments are increasingly going digital, and a greater share of government jobs in developing coun- tries is ICT-intensive than in the private sector. By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create per- sonal online accounts, 73 to file income taxes, and 60 to register a business. For the most common core gov- ernment administrative systems, 190 member states had automated financial management, 179 used such systems for customs processing, and 159 for tax man- agement.\n\n[4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 18\n And 148 of them had some form of digital identification, and 20 had multipurpose digital iden- tification platforms. So far, developing countries have invested more in automating back-office functions than in services directed at citizens and businesses. The lives of the majority of the world’s people remain largely untouched by the digital revolution. Only around 15 percent can afford access to broadband internet. Mobile phones, reaching almost four-fifths of the world’s people, provide the main form of inter- net access in developing countries. But even then, nearly 2 billion people do not own a mobile phone, and nearly 60 percent of the world’s population has no access to the internet. The world’s offline population is\n\n[a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 29\n Where civil registration systems are weak or non- existent, many of the poor are simply not counted. Digital identification can help overcome barriers to participation. Many countries have introduced general- purpose digital identity (ID) schemes or specific systems for elections or to manage postcon- flict transfers—with numerous benefits, including making the public sector more efficient. Nearly 900 million Indians have been issued digital IDs in the past five years, which they are using to open bank accounts, monitor attendance of civil servants, and identify recipients of government subsidies. Nigeria’s e-ID revealed 62,000 public sector “ghost workers,” saving US$1 billion annually.",
+    "context_ids": [
+      "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c",
+      "4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7",
+      "a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605"
+    ],
+    "context_chunks": [
+      {
+        "id": "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 18,
+        "text": " But adoption rates for more sophisti- cated technologies such as secure servers, enterprise network, inventory management, and e-commerce are much lower in most developing countries. Governments are increasingly going digital, and a greater share of government jobs in developing coun- tries is ICT-intensive than in the private sector. By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create per- sonal online accounts, 73 to file income taxes, and 60 to register a business. For the most common core gov- ernment administrative systems, 190 member states had automated financial management, 179 used such systems for customs processing, and 159 for tax man- agement.",
+        "metadata": {
+          "end_char": 2243,
+          "language": "en",
+          "sections": [
+            "digital_divides"
+          ],
+          "start_char": 1518,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.6188818759855022,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 18,
+        "text": " And 148 of them had some form of digital identification, and 20 had multipurpose digital iden- tification platforms. So far, developing countries have invested more in automating back-office functions than in services directed at citizens and businesses. The lives of the majority of the world’s people remain largely untouched by the digital revolution. Only around 15 percent can afford access to broadband internet. Mobile phones, reaching almost four-fifths of the world’s people, provide the main form of inter- net access in developing countries. But even then, nearly 2 billion people do not own a mobile phone, and nearly 60 percent of the world’s population has no access to the internet. The world’s offline population is",
+        "metadata": {
+          "end_char": 2975,
+          "language": "en",
+          "sections": [
+            "digital_divides"
+          ],
+          "start_char": 2243,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.4269508910264532,
+        "rank": 2,
+        "method": "dense"
+      },
+      {
+        "id": "a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 29,
+        "text": " Where civil registration systems are weak or non- existent, many of the poor are simply not counted. Digital identification can help overcome barriers to participation. Many countries have introduced general- purpose digital identity (ID) schemes or specific systems for elections or to manage postcon- flict transfers—with numerous benefits, including making the public sector more efficient. Nearly 900 million Indians have been issued digital IDs in the past five years, which they are using to open bank accounts, monitor attendance of civil servants, and identify recipients of government subsidies. Nigeria’s e-ID revealed 62,000 public sector “ghost workers,” saving US$1 billion annually.",
+        "metadata": {
+          "end_char": 1400,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 703,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.4051650360921977,
+        "rank": 3,
+        "method": "dense"
+      }
+    ],
+    "elapsed_seconds": 12.905256799997005,
+    "query_id": "t01",
+    "question": "According to the report, by 2014 how many UN member states' national websites enabled citizens to create personal online accounts?"
+  },
+  {
+    "status": "answered",
+    "answer": "Sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007 [210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d].",
+    "citations": [
+      "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "step": 1,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 489,
+          "completion_tokens": 37,
+          "total_tokens": 526,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.42355380000663,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_dE8eOOrTvTGwUE8r8v3EPtMG",
+              "type": "function",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"increase in load factors for U.S. domestic flights due to sophisticated reservation and pricing algorithms between 1993 and 2007\"}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_dE8eOOrTvTGwUE8r8v3EPtMG",
+        "arguments": {
+          "query": "increase in load factors for U.S. domestic flights due to sophisticated reservation and pricing algorithms between 1993 and 2007"
+        },
+        "proposed_query": "increase in load factors for U.S. domestic flights due to sophisticated reservation and pricing algorithms between 1993 and 2007",
+        "query": "By approximately how much did sophisticated reservation and pricing algorithms increase load factors for U.S. domestic flights between 1993 and 2007?",
+        "filters": null,
+        "results": [
+          {
+            "id": "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 24,
+            "text": " In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in",
+            "metadata": {
+              "end_char": 4125,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 3753,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.6793448657807253,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "7f3c06156190c9c51f14c5143e32ec6a358d329cab2a36b9fd895a120fa85b86",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 23,
+            "text": "This mechanism operates in two ways. First, the dra- matic decline in the price of digital technologies has led businesses and governments to replace existing factors—labor and non-ICT capital—with ICT capital and to automate some of their activities. Airlines use online booking systems to fill planes. Supermarkets substitute cashiers with automated checkout count- ers. Manufacturers use real-time inventory and sup- ply chain management systems. And governments invest in information management systems and offer online services for a wide range of tasks—from issu- ing drivers’ licenses to filing taxes. Second, digital technologies augment the factors not substituted and make them more productive.",
+            "metadata": {
+              "end_char": 704,
+              "language": "en",
+              "sections": [
+                "development_mechanisms",
+                "digital_dividends"
+              ],
+              "start_char": 0,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.3222669356247062,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 25,
+            "text": "real-time supply chain management to keep inventory costs low. Vietnamese firms using e-commerce had on average 3.6 percentage point higher TFP growth than firms that did not use it (figure O.11). Chinese car com- panies that are more sophisticated users of the inter- net turn over their inventory stocks five times faster than their less savvy competitors. And Botswana and Uruguay maintain unique ID and trace-back systems for livestock that fulfill requirements for beef exports to the EU, while making the production process more efficient. When fully automated internet-based services drive marginal transaction costs to zero, the consequences for market structure are somewhat ambiguous. Low marginal costs imply large economies of scale, which favor natural monopolies.",
+            "metadata": {
+              "end_char": 777,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 0,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.3036856121554725,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 24\n In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in\n\n[7f3c06156190c9c51f14c5143e32ec6a358d329cab2a36b9fd895a120fa85b86]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 23\nThis mechanism operates in two ways. First, the dra- matic decline in the price of digital technologies has led businesses and governments to replace existing factors—labor and non-ICT capital—with ICT capital and to automate some of their activities. Airlines use online booking systems to fill planes. Supermarkets substitute cashiers with automated checkout count- ers. Manufacturers use real-time inventory and sup- ply chain management systems. And governments invest in information management systems and offer online services for a wide range of tasks—from issu- ing drivers’ licenses to filing taxes. Second, digital technologies augment the factors not substituted and make them more productive.\n\n[5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 25\nreal-time supply chain management to keep inventory costs low. Vietnamese firms using e-commerce had on average 3.6 percentage point higher TFP growth than firms that did not use it (figure O.11). Chinese car com- panies that are more sophisticated users of the inter- net turn over their inventory stocks five times faster than their less savvy competitors. And Botswana and Uruguay maintain unique ID and trace-back systems for livestock that fulfill requirements for beef exports to the EU, while making the production process more efficient. When fully automated internet-based services drive marginal transaction costs to zero, the consequences for market structure are somewhat ambiguous. Low marginal costs imply large economies of scale, which favor natural monopolies.",
+        "context_ids": [
+          "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+          "7f3c06156190c9c51f14c5143e32ec6a358d329cab2a36b9fd895a120fa85b86",
+          "5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496"
+        ],
+        "embedding_usage": {
+          "embedding_model": "text-embedding-3-small",
+          "cache_hit": false,
+          "api_requests": 1,
+          "total_tokens": 28
+        },
+        "component_trace": null,
+        "elapsed_seconds": 0.40180700000200886
+      },
+      {
+        "event": "model",
+        "step": 2,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1368,
+          "completion_tokens": 86,
+          "total_tokens": 1454,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.719323199999053,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_5tM72eepOtuo7xS1Bz9zav0v",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"Sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007.\",\"citations\":[\"210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "citation_validation_failed",
+        "submitted": {
+          "status": "answered",
+          "answer": "Sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007.",
+          "citations": [
+            "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d"
+          ]
+        },
+        "available_ids": [
+          "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+          "5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496",
+          "7f3c06156190c9c51f14c5143e32ec6a358d329cab2a36b9fd895a120fa85b86"
+        ],
+        "inline_ids": [],
+        "repair_attempts_used": 0
+      },
+      {
+        "event": "model",
+        "step": 3,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1711,
+          "completion_tokens": 126,
+          "total_tokens": 1837,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.6482953000013367,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_dqq6t5yDhfgU0BrUwJ0gh46O",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"Sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007 [210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d].\",\"citations\":[\"210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "model",
+        "phase": "evidence_verification",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 852,
+          "completion_tokens": 144,
+          "total_tokens": 996,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_j8UPl9DVYJHXe247kJ4H5qMt",
+              "type": "function",
+              "function": {
+                "name": "assess_evidence",
+                "arguments": "{\"supported\":true,\"reason\":\"The proposed answer correctly states the increase in load factors by about one-third for U.S. domestic flights between 1993 and 2007 due to sophisticated reservation and pricing algorithms, matching the information in the provided context.\",\"evidence\":[{\"chunk_id\":\"210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d\",\"quote\":\"In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007.\"}]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        },
+        "elapsed_seconds": 2.671598599998106
+      },
+      {
+        "event": "evidence_verification",
+        "verdict": {
+          "supported": true,
+          "reason": "The proposed answer correctly states the increase in load factors by about one-third for U.S. domestic flights between 1993 and 2007 due to sophisticated reservation and pricing algorithms, matching the information in the provided context.",
+          "evidence": [
+            {
+              "chunk_id": "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+              "quote": "In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007."
+            }
+          ]
+        }
+      },
+      {
+        "event": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "Sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007 [210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d].",
+          "citations": [
+            "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d"
+          ]
+        }
+      }
+    ],
+    "search_count": 1,
+    "final_context": "[210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 24\n In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in\n\n[7f3c06156190c9c51f14c5143e32ec6a358d329cab2a36b9fd895a120fa85b86]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 23\nThis mechanism operates in two ways. First, the dra- matic decline in the price of digital technologies has led businesses and governments to replace existing factors—labor and non-ICT capital—with ICT capital and to automate some of their activities. Airlines use online booking systems to fill planes. Supermarkets substitute cashiers with automated checkout count- ers. Manufacturers use real-time inventory and sup- ply chain management systems. And governments invest in information management systems and offer online services for a wide range of tasks—from issu- ing drivers’ licenses to filing taxes. Second, digital technologies augment the factors not substituted and make them more productive.\n\n[5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 25\nreal-time supply chain management to keep inventory costs low. Vietnamese firms using e-commerce had on average 3.6 percentage point higher TFP growth than firms that did not use it (figure O.11). Chinese car com- panies that are more sophisticated users of the inter- net turn over their inventory stocks five times faster than their less savvy competitors. And Botswana and Uruguay maintain unique ID and trace-back systems for livestock that fulfill requirements for beef exports to the EU, while making the production process more efficient. When fully automated internet-based services drive marginal transaction costs to zero, the consequences for market structure are somewhat ambiguous. Low marginal costs imply large economies of scale, which favor natural monopolies.",
+    "context_ids": [
+      "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+      "7f3c06156190c9c51f14c5143e32ec6a358d329cab2a36b9fd895a120fa85b86",
+      "5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496"
+    ],
+    "context_chunks": [
+      {
+        "id": "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 24,
+        "text": " In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in",
+        "metadata": {
+          "end_char": 4125,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 3753,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.6793448657807253,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "7f3c06156190c9c51f14c5143e32ec6a358d329cab2a36b9fd895a120fa85b86",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 23,
+        "text": "This mechanism operates in two ways. First, the dra- matic decline in the price of digital technologies has led businesses and governments to replace existing factors—labor and non-ICT capital—with ICT capital and to automate some of their activities. Airlines use online booking systems to fill planes. Supermarkets substitute cashiers with automated checkout count- ers. Manufacturers use real-time inventory and sup- ply chain management systems. And governments invest in information management systems and offer online services for a wide range of tasks—from issu- ing drivers’ licenses to filing taxes. Second, digital technologies augment the factors not substituted and make them more productive.",
+        "metadata": {
+          "end_char": 704,
+          "language": "en",
+          "sections": [
+            "development_mechanisms",
+            "digital_dividends"
+          ],
+          "start_char": 0,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.3222669356247062,
+        "rank": 2,
+        "method": "dense"
+      },
+      {
+        "id": "5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 25,
+        "text": "real-time supply chain management to keep inventory costs low. Vietnamese firms using e-commerce had on average 3.6 percentage point higher TFP growth than firms that did not use it (figure O.11). Chinese car com- panies that are more sophisticated users of the inter- net turn over their inventory stocks five times faster than their less savvy competitors. And Botswana and Uruguay maintain unique ID and trace-back systems for livestock that fulfill requirements for beef exports to the EU, while making the production process more efficient. When fully automated internet-based services drive marginal transaction costs to zero, the consequences for market structure are somewhat ambiguous. Low marginal costs imply large economies of scale, which favor natural monopolies.",
+        "metadata": {
+          "end_char": 777,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 0,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.3036856121554725,
+        "rank": 3,
+        "method": "dense"
+      }
+    ],
+    "elapsed_seconds": 7.865106799996283,
+    "query_id": "t02",
+    "question": "By approximately how much did sophisticated reservation and pricing algorithms increase load factors for U.S. domestic flights between 1993 and 2007?"
+  },
+  {
+    "status": "answered",
+    "answer": "TransferWise and Xoom cut the prices of international currency transfers by up to 90 percent [ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49].",
+    "citations": [
+      "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "step": 1,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 485,
+          "completion_tokens": 22,
+          "total_tokens": 507,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 0.9949183999997331,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_FFjfW2xVhswTh2al24e0HtmY",
+              "type": "function",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"TransferWise and Xoom price cuts international currency transfers\"}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_FFjfW2xVhswTh2al24e0HtmY",
+        "arguments": {
+          "query": "TransferWise and Xoom price cuts international currency transfers"
+        },
+        "proposed_query": "TransferWise and Xoom price cuts international currency transfers",
+        "query": "According to the report, by up to what percentage did TransferWise and Xoom cut the prices of international currency transfers?",
+        "filters": null,
+        "results": [
+          {
+            "id": "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 26,
+            "text": " Similarly, TransferWise and Xoom have reduced regulatory rents in the financial sector and cut the prices of international currency transfers by up to 90 percent. In Uganda, eKeebo allows independent or amateur chefs to provide and share home-cooked meals, circumventing restaurant licenses. People have an enormous desire to communicate and connect. The personal welfare gain from having access to digital technology is clearly great. Does it also increase people’s economic opportunities? People certainly use mobile phones and the internet more for social purposes than for professional ones. But an emerging literature also indicates that people realize tangible economic benefits.",
+            "metadata": {
+              "end_char": 1480,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 794,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.5382706319804511,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 24,
+            "text": " In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in",
+            "metadata": {
+              "end_char": 4125,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 3753,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.3349934115025964,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "7eb7fdbf48f0425e615379e5ec9874b5df47a1daeea9edba2e8df33694041422",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 48,
+            "text": " The internet is encouraging more cross-border exchanges of goods and services, allowing consum- ers and firms to bypass national borders. But cross- border issues—such as barriers to data flows and unco- ordinated intellectual property rights regimes—are impairing the growth of internet firms and robbing consumers of gains from increased digital trade. This has also meant that many startups from smaller coun- tries with relatively modest domestic markets, partic- ularly in Europe (box O.13), are moving their business to the United States as soon as they achieve a certain scale. The small scale imposed by cross-border barriers may also partly explain why e-commerce firms are",
+            "metadata": {
+              "end_char": 4703,
+              "language": "en",
+              "sections": [
+                "analog_complements",
+                "global_cooperation"
+              ],
+              "start_char": 4020,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.32441501030119047,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 26\n Similarly, TransferWise and Xoom have reduced regulatory rents in the financial sector and cut the prices of international currency transfers by up to 90 percent. In Uganda, eKeebo allows independent or amateur chefs to provide and share home-cooked meals, circumventing restaurant licenses. People have an enormous desire to communicate and connect. The personal welfare gain from having access to digital technology is clearly great. Does it also increase people’s economic opportunities? People certainly use mobile phones and the internet more for social purposes than for professional ones. But an emerging literature also indicates that people realize tangible economic benefits.\n\n[210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 24\n In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in\n\n[7eb7fdbf48f0425e615379e5ec9874b5df47a1daeea9edba2e8df33694041422]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 48\n The internet is encouraging more cross-border exchanges of goods and services, allowing consum- ers and firms to bypass national borders. But cross- border issues—such as barriers to data flows and unco- ordinated intellectual property rights regimes—are impairing the growth of internet firms and robbing consumers of gains from increased digital trade. This has also meant that many startups from smaller coun- tries with relatively modest domestic markets, partic- ularly in Europe (box O.13), are moving their business to the United States as soon as they achieve a certain scale. The small scale imposed by cross-border barriers may also partly explain why e-commerce firms are",
+        "context_ids": [
+          "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49",
+          "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+          "7eb7fdbf48f0425e615379e5ec9874b5df47a1daeea9edba2e8df33694041422"
+        ],
+        "embedding_usage": {
+          "embedding_model": "text-embedding-3-small",
+          "cache_hit": false,
+          "api_requests": 1,
+          "total_tokens": 25
+        },
+        "component_trace": null,
+        "elapsed_seconds": 0.35880579999502515
+      },
+      {
+        "event": "model",
+        "step": 2,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1345,
+          "completion_tokens": 83,
+          "total_tokens": 1428,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 2.110798399997293,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_RowHzjVaDa6ANx9qypqEmdgt",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"According to the report, TransferWise and Xoom cut the prices of international currency transfers by up to 90 percent.\",\"citations\":[\"ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "citation_validation_failed",
+        "submitted": {
+          "status": "answered",
+          "answer": "According to the report, TransferWise and Xoom cut the prices of international currency transfers by up to 90 percent.",
+          "citations": [
+            "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49"
+          ]
+        },
+        "available_ids": [
+          "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+          "7eb7fdbf48f0425e615379e5ec9874b5df47a1daeea9edba2e8df33694041422",
+          "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49"
+        ],
+        "inline_ids": [],
+        "repair_attempts_used": 0
+      },
+      {
+        "event": "model",
+        "step": 3,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1691,
+          "completion_tokens": 119,
+          "total_tokens": 1810,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.686857400003646,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_SdspIhqFJI6QiYrqHDgFnvOH",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"TransferWise and Xoom cut the prices of international currency transfers by up to 90 percent [ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49].\",\"citations\":[\"ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "model",
+        "phase": "evidence_verification",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 829,
+          "completion_tokens": 133,
+          "total_tokens": 962,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_zqTF4zIEUEONiIGcG5w62GtI",
+              "type": "function",
+              "function": {
+                "name": "assess_evidence",
+                "arguments": "{\"supported\":true,\"reason\":\"The proposed answer correctly states that TransferWise and Xoom cut the prices of international currency transfers by up to 90 percent, which is explicitly supported by the provided context.\",\"evidence\":[{\"chunk_id\":\"ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49\",\"quote\":\"Similarly, TransferWise and Xoom have reduced regulatory rents in the financial sector and cut the prices of international currency transfers by up to 90 percent.\"}]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        },
+        "elapsed_seconds": 1.660519099998055
+      },
+      {
+        "event": "evidence_verification",
+        "verdict": {
+          "supported": true,
+          "reason": "The proposed answer correctly states that TransferWise and Xoom cut the prices of international currency transfers by up to 90 percent, which is explicitly supported by the provided context.",
+          "evidence": [
+            {
+              "chunk_id": "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49",
+              "quote": "Similarly, TransferWise and Xoom have reduced regulatory rents in the financial sector and cut the prices of international currency transfers by up to 90 percent."
+            }
+          ]
+        }
+      },
+      {
+        "event": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "TransferWise and Xoom cut the prices of international currency transfers by up to 90 percent [ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49].",
+          "citations": [
+            "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49"
+          ]
+        }
+      }
+    ],
+    "search_count": 1,
+    "final_context": "[ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 26\n Similarly, TransferWise and Xoom have reduced regulatory rents in the financial sector and cut the prices of international currency transfers by up to 90 percent. In Uganda, eKeebo allows independent or amateur chefs to provide and share home-cooked meals, circumventing restaurant licenses. People have an enormous desire to communicate and connect. The personal welfare gain from having access to digital technology is clearly great. Does it also increase people’s economic opportunities? People certainly use mobile phones and the internet more for social purposes than for professional ones. But an emerging literature also indicates that people realize tangible economic benefits.\n\n[210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 24\n In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in\n\n[7eb7fdbf48f0425e615379e5ec9874b5df47a1daeea9edba2e8df33694041422]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 48\n The internet is encouraging more cross-border exchanges of goods and services, allowing consum- ers and firms to bypass national borders. But cross- border issues—such as barriers to data flows and unco- ordinated intellectual property rights regimes—are impairing the growth of internet firms and robbing consumers of gains from increased digital trade. This has also meant that many startups from smaller coun- tries with relatively modest domestic markets, partic- ularly in Europe (box O.13), are moving their business to the United States as soon as they achieve a certain scale. The small scale imposed by cross-border barriers may also partly explain why e-commerce firms are",
+    "context_ids": [
+      "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49",
+      "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+      "7eb7fdbf48f0425e615379e5ec9874b5df47a1daeea9edba2e8df33694041422"
+    ],
+    "context_chunks": [
+      {
+        "id": "ee71dee9c6d9234c0d32c8555570da2c4cfe54e6f1dce5e707716b02045bdd49",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 26,
+        "text": " Similarly, TransferWise and Xoom have reduced regulatory rents in the financial sector and cut the prices of international currency transfers by up to 90 percent. In Uganda, eKeebo allows independent or amateur chefs to provide and share home-cooked meals, circumventing restaurant licenses. People have an enormous desire to communicate and connect. The personal welfare gain from having access to digital technology is clearly great. Does it also increase people’s economic opportunities? People certainly use mobile phones and the internet more for social purposes than for professional ones. But an emerging literature also indicates that people realize tangible economic benefits.",
+        "metadata": {
+          "end_char": 1480,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 794,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.5382706319804511,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 24,
+        "text": " In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in",
+        "metadata": {
+          "end_char": 4125,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 3753,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.3349934115025964,
+        "rank": 2,
+        "method": "dense"
+      },
+      {
+        "id": "7eb7fdbf48f0425e615379e5ec9874b5df47a1daeea9edba2e8df33694041422",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 48,
+        "text": " The internet is encouraging more cross-border exchanges of goods and services, allowing consum- ers and firms to bypass national borders. But cross- border issues—such as barriers to data flows and unco- ordinated intellectual property rights regimes—are impairing the growth of internet firms and robbing consumers of gains from increased digital trade. This has also meant that many startups from smaller coun- tries with relatively modest domestic markets, partic- ularly in Europe (box O.13), are moving their business to the United States as soon as they achieve a certain scale. The small scale imposed by cross-border barriers may also partly explain why e-commerce firms are",
+        "metadata": {
+          "end_char": 4703,
+          "language": "en",
+          "sections": [
+            "analog_complements",
+            "global_cooperation"
+          ],
+          "start_char": 4020,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.32441501030119047,
+        "rank": 3,
+        "method": "dense"
+      }
+    ],
+    "elapsed_seconds": 6.814740999994683,
+    "query_id": "t03",
+    "question": "According to the report, by up to what percentage did TransferWise and Xoom cut the prices of international currency transfers?"
+  },
+  {
+    "status": "answered",
+    "answer": "Instagram had just 13 employees in 2012 when it was bought by Facebook [d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b].",
+    "citations": [
+      "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "step": 1,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 476,
+          "completion_tokens": 19,
+          "total_tokens": 495,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.052169700000377,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_HQchE0CbiQ4v0N0ExX2os7U7",
+              "type": "function",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Instagram employees 2012 Facebook acquisition\"}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_HQchE0CbiQ4v0N0ExX2os7U7",
+        "arguments": {
+          "query": "Instagram employees 2012 Facebook acquisition"
+        },
+        "proposed_query": "Instagram employees 2012 Facebook acquisition",
+        "query": "How many employees did Instagram have in 2012 when Facebook bought it?",
+        "filters": null,
+        "results": [
+          {
+            "id": "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 26,
+            "text": " In OECD countries, about 3–5 percent of the employ- ment is in this sector. Instagram, a photo sharing app, had just 13 employees in 2012 when it was bought by Facebook for US$1 billion. Facebook had 5,000 employ- ees at the time—compared with 145,000 at Kodak at its peak in photographic film in the 1990s. Yet Facebook’s market value is several times what Kodak’s was back then. ICT jobs, however, tend to pay well, and each high-tech job generates 4.9 additional jobs in other sectors in the United States. In Kenya, the M-Pesa digital payment system creates additional income for more than 80,000 agents.",
+            "metadata": {
+              "end_char": 2878,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 2269,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.5618852995538546,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "80b58530a3c552c54d594175a5668f7cb26fd0010d070e32ce111cd22e227921",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 44,
+            "text": " In the United States, cities like New York and states like Massachusetts have begun to develop appropri- ate regulations for these platforms, imposing safety and tax obligations but also reducing their competi- tors’ regulatory burdens. Similar regulatory puzzles are posed by firms such as Amazon, Facebook, and Google. For example, Google is known as a search engine company but is better described as an advertising firm. These firms confound conventional competition law because they do not act as traditional monopolies. Their services are often free to consumers. But given their domi- nance in the markets for online ads and books, they have considerable leverage over marketers and book- sellers. This is similar to credit card companies’ posi- tion with respect to retailers.",
+            "metadata": {
+              "end_char": 1498,
+              "language": "en",
+              "sections": [
+                "analog_complements"
+              ],
+              "start_char": 713,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.2095269868318863,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "efe02372fcae531ee2e00a025e3035d85eacf971ad186a5e4b8fc8e2b82f1933",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 47,
+            "text": " They should give users more control (and perhaps co-ownership) over their data and make",
+            "metadata": {
+              "end_char": 2344,
+              "language": "en",
+              "sections": [
+                "analog_complements"
+              ],
+              "start_char": 2256,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.2067887562704197,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 26\n In OECD countries, about 3–5 percent of the employ- ment is in this sector. Instagram, a photo sharing app, had just 13 employees in 2012 when it was bought by Facebook for US$1 billion. Facebook had 5,000 employ- ees at the time—compared with 145,000 at Kodak at its peak in photographic film in the 1990s. Yet Facebook’s market value is several times what Kodak’s was back then. ICT jobs, however, tend to pay well, and each high-tech job generates 4.9 additional jobs in other sectors in the United States. In Kenya, the M-Pesa digital payment system creates additional income for more than 80,000 agents.\n\n[80b58530a3c552c54d594175a5668f7cb26fd0010d070e32ce111cd22e227921]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 44\n In the United States, cities like New York and states like Massachusetts have begun to develop appropri- ate regulations for these platforms, imposing safety and tax obligations but also reducing their competi- tors’ regulatory burdens. Similar regulatory puzzles are posed by firms such as Amazon, Facebook, and Google. For example, Google is known as a search engine company but is better described as an advertising firm. These firms confound conventional competition law because they do not act as traditional monopolies. Their services are often free to consumers. But given their domi- nance in the markets for online ads and books, they have considerable leverage over marketers and book- sellers. This is similar to credit card companies’ posi- tion with respect to retailers.\n\n[efe02372fcae531ee2e00a025e3035d85eacf971ad186a5e4b8fc8e2b82f1933]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 47\n They should give users more control (and perhaps co-ownership) over their data and make",
+        "context_ids": [
+          "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b",
+          "80b58530a3c552c54d594175a5668f7cb26fd0010d070e32ce111cd22e227921",
+          "efe02372fcae531ee2e00a025e3035d85eacf971ad186a5e4b8fc8e2b82f1933"
+        ],
+        "embedding_usage": {
+          "embedding_model": "text-embedding-3-small",
+          "cache_hit": false,
+          "api_requests": 1,
+          "total_tokens": 15
+        },
+        "component_trace": null,
+        "elapsed_seconds": 1.0557517999986885
+      },
+      {
+        "event": "model",
+        "step": 2,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1312,
+          "completion_tokens": 70,
+          "total_tokens": 1382,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.8486055999965174,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_d4j6UE6CSb8rwY7oBuXlMOZC",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"Instagram had just 13 employees in 2012 when it was bought by Facebook.\",\"citations\":[\"d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "citation_validation_failed",
+        "submitted": {
+          "status": "answered",
+          "answer": "Instagram had just 13 employees in 2012 when it was bought by Facebook.",
+          "citations": [
+            "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b"
+          ]
+        },
+        "available_ids": [
+          "80b58530a3c552c54d594175a5668f7cb26fd0010d070e32ce111cd22e227921",
+          "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b",
+          "efe02372fcae531ee2e00a025e3035d85eacf971ad186a5e4b8fc8e2b82f1933"
+        ],
+        "inline_ids": [],
+        "repair_attempts_used": 0
+      },
+      {
+        "event": "model",
+        "step": 3,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1635,
+          "completion_tokens": 105,
+          "total_tokens": 1740,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.7032909999979893,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_M2jzgomoc9mkb8zdW6TomTaC",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"Instagram had just 13 employees in 2012 when it was bought by Facebook [d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b].\",\"citations\":[\"d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "model",
+        "phase": "evidence_verification",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 801,
+          "completion_tokens": 119,
+          "total_tokens": 920,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_zGRYXGOXbmIaQo6htyjeNbXX",
+              "type": "function",
+              "function": {
+                "name": "assess_evidence",
+                "arguments": "{\"supported\":true,\"reason\":\"The proposed answer correctly states the number of employees Instagram had in 2012 when Facebook bought it, matching the information in the provided context.\",\"evidence\":[{\"chunk_id\":\"d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b\",\"quote\":\"Instagram, a photo sharing app, had just 13 employees in 2012 when it was bought by Facebook for US$1 billion.\"}]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        },
+        "elapsed_seconds": 1.7427191999959177
+      },
+      {
+        "event": "evidence_verification",
+        "verdict": {
+          "supported": true,
+          "reason": "The proposed answer correctly states the number of employees Instagram had in 2012 when Facebook bought it, matching the information in the provided context.",
+          "evidence": [
+            {
+              "chunk_id": "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b",
+              "quote": "Instagram, a photo sharing app, had just 13 employees in 2012 when it was bought by Facebook for US$1 billion."
+            }
+          ]
+        }
+      },
+      {
+        "event": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "Instagram had just 13 employees in 2012 when it was bought by Facebook [d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b].",
+          "citations": [
+            "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b"
+          ]
+        }
+      }
+    ],
+    "search_count": 1,
+    "final_context": "[d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 26\n In OECD countries, about 3–5 percent of the employ- ment is in this sector. Instagram, a photo sharing app, had just 13 employees in 2012 when it was bought by Facebook for US$1 billion. Facebook had 5,000 employ- ees at the time—compared with 145,000 at Kodak at its peak in photographic film in the 1990s. Yet Facebook’s market value is several times what Kodak’s was back then. ICT jobs, however, tend to pay well, and each high-tech job generates 4.9 additional jobs in other sectors in the United States. In Kenya, the M-Pesa digital payment system creates additional income for more than 80,000 agents.\n\n[80b58530a3c552c54d594175a5668f7cb26fd0010d070e32ce111cd22e227921]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 44\n In the United States, cities like New York and states like Massachusetts have begun to develop appropri- ate regulations for these platforms, imposing safety and tax obligations but also reducing their competi- tors’ regulatory burdens. Similar regulatory puzzles are posed by firms such as Amazon, Facebook, and Google. For example, Google is known as a search engine company but is better described as an advertising firm. These firms confound conventional competition law because they do not act as traditional monopolies. Their services are often free to consumers. But given their domi- nance in the markets for online ads and books, they have considerable leverage over marketers and book- sellers. This is similar to credit card companies’ posi- tion with respect to retailers.\n\n[efe02372fcae531ee2e00a025e3035d85eacf971ad186a5e4b8fc8e2b82f1933]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 47\n They should give users more control (and perhaps co-ownership) over their data and make",
+    "context_ids": [
+      "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b",
+      "80b58530a3c552c54d594175a5668f7cb26fd0010d070e32ce111cd22e227921",
+      "efe02372fcae531ee2e00a025e3035d85eacf971ad186a5e4b8fc8e2b82f1933"
+    ],
+    "context_chunks": [
+      {
+        "id": "d207fb8f11ee57fed9f67ade7fb88c930384c1dbbbc87451289b0ca28345440b",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 26,
+        "text": " In OECD countries, about 3–5 percent of the employ- ment is in this sector. Instagram, a photo sharing app, had just 13 employees in 2012 when it was bought by Facebook for US$1 billion. Facebook had 5,000 employ- ees at the time—compared with 145,000 at Kodak at its peak in photographic film in the 1990s. Yet Facebook’s market value is several times what Kodak’s was back then. ICT jobs, however, tend to pay well, and each high-tech job generates 4.9 additional jobs in other sectors in the United States. In Kenya, the M-Pesa digital payment system creates additional income for more than 80,000 agents.",
+        "metadata": {
+          "end_char": 2878,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 2269,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.5618852995538546,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "80b58530a3c552c54d594175a5668f7cb26fd0010d070e32ce111cd22e227921",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 44,
+        "text": " In the United States, cities like New York and states like Massachusetts have begun to develop appropri- ate regulations for these platforms, imposing safety and tax obligations but also reducing their competi- tors’ regulatory burdens. Similar regulatory puzzles are posed by firms such as Amazon, Facebook, and Google. For example, Google is known as a search engine company but is better described as an advertising firm. These firms confound conventional competition law because they do not act as traditional monopolies. Their services are often free to consumers. But given their domi- nance in the markets for online ads and books, they have considerable leverage over marketers and book- sellers. This is similar to credit card companies’ posi- tion with respect to retailers.",
+        "metadata": {
+          "end_char": 1498,
+          "language": "en",
+          "sections": [
+            "analog_complements"
+          ],
+          "start_char": 713,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.2095269868318863,
+        "rank": 2,
+        "method": "dense"
+      },
+      {
+        "id": "efe02372fcae531ee2e00a025e3035d85eacf971ad186a5e4b8fc8e2b82f1933",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 47,
+        "text": " They should give users more control (and perhaps co-ownership) over their data and make",
+        "metadata": {
+          "end_char": 2344,
+          "language": "en",
+          "sections": [
+            "analog_complements"
+          ],
+          "start_char": 2256,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.2067887562704197,
+        "rank": 3,
+        "method": "dense"
+      }
+    ],
+    "elapsed_seconds": 7.403035600000294,
+    "query_id": "t04",
+    "question": "How many employees did Instagram have in 2012 when Facebook bought it?"
+  },
+  {
+    "status": "answered",
+    "answer": "In Pakistan, mobile phones enabled a shift that reduced postharvest losses from the most perishable crops by 21 to 35 percent [654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507].",
+    "citations": [
+      "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507"
+    ],
+    "events": [
+      {
+        "event": "model",
+        "step": 1,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 487,
+          "completion_tokens": 21,
+          "total_tokens": 508,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.2222204000063357,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_6nVQlRlF2q9b0Mj5IIhL9rVw",
+              "type": "function",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Pakistan mobile phones postharvest losses reduction percentage\"}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_6nVQlRlF2q9b0Mj5IIhL9rVw",
+        "arguments": {
+          "query": "Pakistan mobile phones postharvest losses reduction percentage"
+        },
+        "proposed_query": "Pakistan mobile phones postharvest losses reduction percentage",
+        "query": "In Pakistan, by what percentage range did the shift enabled by mobile phones reduce postharvest losses from the most perishable crops?",
+        "filters": null,
+        "results": [
+          {
+            "id": "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 27,
+            "text": " Using technology for information on prices, soil quality, weather, new technologies, and coordination with traders has been extensively documented in agriculture (see sector focus 1 in the full Report). In Honduras, farmers who got market price information via short message service (SMS) reported an increase of 12.5 percent in prices received. In Pakistan, mobile phones allow farmers to shift to more perishable but higher return cash crops, reducing postharvest losses from the most perishable crops by 21–35 percent. The impacts of reduced information asymmetries tend to be larger when learning about information in distant markets or among disadvantaged farmers who face more information constraints.",
+            "metadata": {
+              "end_char": 2759,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 2051,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.6257516964227003,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "450ef3d6234459f24fa14e5d167effff43ba0624df8eb1f8a3d3bb38cb4aeea1",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 46,
+            "text": " For policies, this implies a dual strategy: tailoring the appli- cation of digital technologies to environments with limited accountability in the short term, and strength- ening institutions in the longer term (table O.3).\n\nAlthough internet access is still low in many emerg- ing economies, mobile phones are widespread and have great potential for improving services. In the health sector, simple mobile phone–based remind- ers for taking medications have been effective for HIV patients in Malawi and for providing maternal health information in the Democratic Republic of Congo. Phones can support the monitoring of teach- ers or other government workers where absenteeism is a problem, even if monitoring alone is insufficient to improve service quality or outcomes (box O.12).",
+            "metadata": {
+              "end_char": 2191,
+              "language": "en",
+              "sections": [
+                "analog_complements"
+              ],
+              "start_char": 1407,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.40477233760858533,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "0b575b3545d73677ed40050a8bf34d4f8aae0f71fc7f541cbddc0dc8c52e3443",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 28,
+            "text": "and hospitality services, health, education, and retail. This has increased the variety of goods and services available, including those for leisure. The internet thus enhances consumer welfare, but in ways that are hard to measure. People’s perceptions are that digital technologies have certainly made them better off. In 12 countries surveyed in Africa, 65 percent of people believe that their family is better off because they have mobile phones, whereas only 20 percent disagree (14.5 per- cent not sure). And 73 percent say mobile phones help save on travel time and costs, with only 10 per- cent saying otherwise. Two-thirds believe that having a mobile phone makes them feel more safe and secure. Some studies have attempted to quantify the economic value of these gains.",
+            "metadata": {
+              "end_char": 779,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 0,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.4042207308170134,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 27\n Using technology for information on prices, soil quality, weather, new technologies, and coordination with traders has been extensively documented in agriculture (see sector focus 1 in the full Report). In Honduras, farmers who got market price information via short message service (SMS) reported an increase of 12.5 percent in prices received. In Pakistan, mobile phones allow farmers to shift to more perishable but higher return cash crops, reducing postharvest losses from the most perishable crops by 21–35 percent. The impacts of reduced information asymmetries tend to be larger when learning about information in distant markets or among disadvantaged farmers who face more information constraints.\n\n[450ef3d6234459f24fa14e5d167effff43ba0624df8eb1f8a3d3bb38cb4aeea1]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 46\n For policies, this implies a dual strategy: tailoring the appli- cation of digital technologies to environments with limited accountability in the short term, and strength- ening institutions in the longer term (table O.3).\n\nAlthough internet access is still low in many emerg- ing economies, mobile phones are widespread and have great potential for improving services. In the health sector, simple mobile phone–based remind- ers for taking medications have been effective for HIV patients in Malawi and for providing maternal health information in the Democratic Republic of Congo. Phones can support the monitoring of teach- ers or other government workers where absenteeism is a problem, even if monitoring alone is insufficient to improve service quality or outcomes (box O.12).",
+        "context_ids": [
+          "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507",
+          "450ef3d6234459f24fa14e5d167effff43ba0624df8eb1f8a3d3bb38cb4aeea1"
+        ],
+        "embedding_usage": {
+          "embedding_model": "text-embedding-3-small",
+          "cache_hit": false,
+          "api_requests": 1,
+          "total_tokens": 26
+        },
+        "component_trace": null,
+        "elapsed_seconds": 0.3376055999979144
+      },
+      {
+        "event": "model",
+        "step": 2,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1195,
+          "completion_tokens": 86,
+          "total_tokens": 1281,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.66245329999947,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_zloaVi6ILkZn2Tdex3pbvbcg",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"In Pakistan, the shift enabled by mobile phones reduced postharvest losses from the most perishable crops by a range of 21 to 35 percent.\",\"citations\":[\"654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "citation_validation_failed",
+        "submitted": {
+          "status": "answered",
+          "answer": "In Pakistan, the shift enabled by mobile phones reduced postharvest losses from the most perishable crops by a range of 21 to 35 percent.",
+          "citations": [
+            "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507"
+          ]
+        },
+        "available_ids": [
+          "450ef3d6234459f24fa14e5d167effff43ba0624df8eb1f8a3d3bb38cb4aeea1",
+          "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507"
+        ],
+        "inline_ids": [],
+        "repair_attempts_used": 0
+      },
+      {
+        "event": "model",
+        "step": 3,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1501,
+          "completion_tokens": 120,
+          "total_tokens": 1621,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 2.0968241000009584,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_QadDhLKC11vVZ3w1jf6bOy9C",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"In Pakistan, mobile phones enabled a shift that reduced postharvest losses from the most perishable crops by 21 to 35 percent [654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507].\",\"citations\":[\"654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507\"]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "model",
+        "phase": "evidence_verification",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 721,
+          "completion_tokens": 142,
+          "total_tokens": 863,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_kSdWWUGWs0errq46mg5DTLjM",
+              "type": "function",
+              "function": {
+                "name": "assess_evidence",
+                "arguments": "{\"supported\":true,\"reason\":\"The proposed answer correctly states the percentage range (21 to 35 percent) by which mobile phones reduced postharvest losses from the most perishable crops in Pakistan, as documented in the provided context.\",\"evidence\":[{\"chunk_id\":\"654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507\",\"quote\":\"In Pakistan, mobile phones allow farmers to shift to more perishable but higher return cash crops, reducing postharvest losses from the most perishable crops by 21–35 percent.\"}]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        },
+        "elapsed_seconds": 1.7268044000011287
+      },
+      {
+        "event": "evidence_verification",
+        "verdict": {
+          "supported": true,
+          "reason": "The proposed answer correctly states the percentage range (21 to 35 percent) by which mobile phones reduced postharvest losses from the most perishable crops in Pakistan, as documented in the provided context.",
+          "evidence": [
+            {
+              "chunk_id": "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507",
+              "quote": "In Pakistan, mobile phones allow farmers to shift to more perishable but higher return cash crops, reducing postharvest losses from the most perishable crops by 21–35 percent."
+            }
+          ]
+        }
+      },
+      {
+        "event": "finish",
+        "arguments": {
+          "status": "answered",
+          "answer": "In Pakistan, mobile phones enabled a shift that reduced postharvest losses from the most perishable crops by 21 to 35 percent [654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507].",
+          "citations": [
+            "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507"
+          ]
+        }
+      }
+    ],
+    "search_count": 1,
+    "final_context": "[654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 27\n Using technology for information on prices, soil quality, weather, new technologies, and coordination with traders has been extensively documented in agriculture (see sector focus 1 in the full Report). In Honduras, farmers who got market price information via short message service (SMS) reported an increase of 12.5 percent in prices received. In Pakistan, mobile phones allow farmers to shift to more perishable but higher return cash crops, reducing postharvest losses from the most perishable crops by 21–35 percent. The impacts of reduced information asymmetries tend to be larger when learning about information in distant markets or among disadvantaged farmers who face more information constraints.\n\n[450ef3d6234459f24fa14e5d167effff43ba0624df8eb1f8a3d3bb38cb4aeea1]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 46\n For policies, this implies a dual strategy: tailoring the appli- cation of digital technologies to environments with limited accountability in the short term, and strength- ening institutions in the longer term (table O.3).\n\nAlthough internet access is still low in many emerg- ing economies, mobile phones are widespread and have great potential for improving services. In the health sector, simple mobile phone–based remind- ers for taking medications have been effective for HIV patients in Malawi and for providing maternal health information in the Democratic Republic of Congo. Phones can support the monitoring of teach- ers or other government workers where absenteeism is a problem, even if monitoring alone is insufficient to improve service quality or outcomes (box O.12).",
+    "context_ids": [
+      "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507",
+      "450ef3d6234459f24fa14e5d167effff43ba0624df8eb1f8a3d3bb38cb4aeea1"
+    ],
+    "context_chunks": [
+      {
+        "id": "654ee5e650f0fa16332bc041ce8cdf4a3765da63c7b4d354873601021b6a0507",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 27,
+        "text": " Using technology for information on prices, soil quality, weather, new technologies, and coordination with traders has been extensively documented in agriculture (see sector focus 1 in the full Report). In Honduras, farmers who got market price information via short message service (SMS) reported an increase of 12.5 percent in prices received. In Pakistan, mobile phones allow farmers to shift to more perishable but higher return cash crops, reducing postharvest losses from the most perishable crops by 21–35 percent. The impacts of reduced information asymmetries tend to be larger when learning about information in distant markets or among disadvantaged farmers who face more information constraints.",
+        "metadata": {
+          "end_char": 2759,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 2051,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.6257516964227003,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "450ef3d6234459f24fa14e5d167effff43ba0624df8eb1f8a3d3bb38cb4aeea1",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 46,
+        "text": " For policies, this implies a dual strategy: tailoring the appli- cation of digital technologies to environments with limited accountability in the short term, and strength- ening institutions in the longer term (table O.3).\n\nAlthough internet access is still low in many emerg- ing economies, mobile phones are widespread and have great potential for improving services. In the health sector, simple mobile phone–based remind- ers for taking medications have been effective for HIV patients in Malawi and for providing maternal health information in the Democratic Republic of Congo. Phones can support the monitoring of teach- ers or other government workers where absenteeism is a problem, even if monitoring alone is insufficient to improve service quality or outcomes (box O.12).",
+        "metadata": {
+          "end_char": 2191,
+          "language": "en",
+          "sections": [
+            "analog_complements"
+          ],
+          "start_char": 1407,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.40477233760858533,
+        "rank": 2,
+        "method": "dense"
+      }
+    ],
+    "elapsed_seconds": 7.046483400001307,
+    "query_id": "t05",
+    "question": "In Pakistan, by what percentage range did the shift enabled by mobile phones reduce postharvest losses from the most perishable crops?"
+  },
+  {
+    "status": "abstain",
+    "answer": "The indexed World Bank report from 2016 mentions that UPS uses intelligent routing algorithms to avoid left turns, saving time and fuel, but it does not provide the exact implementation source code for this routing algorithm.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model",
+        "step": 1,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 481,
+          "completion_tokens": 21,
+          "total_tokens": 502,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.0338353999977699,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_DhZ9GYYqKZKfLa95NHKGyaTJ",
+              "type": "function",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"UPS routing algorithm avoids left turns implementation source code\"}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_DhZ9GYYqKZKfLa95NHKGyaTJ",
+        "arguments": {
+          "query": "UPS routing algorithm avoids left turns implementation source code"
+        },
+        "proposed_query": "UPS routing algorithm avoids left turns implementation source code",
+        "query": "What exact implementation source code does the indexed report provide for UPS's routing algorithm that avoids left turns?",
+        "filters": null,
+        "results": [
+          {
+            "id": "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 24,
+            "text": " In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in",
+            "metadata": {
+              "end_char": 4125,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 3753,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.5068078995684717,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 25,
+            "text": "real-time supply chain management to keep inventory costs low. Vietnamese firms using e-commerce had on average 3.6 percentage point higher TFP growth than firms that did not use it (figure O.11). Chinese car com- panies that are more sophisticated users of the inter- net turn over their inventory stocks five times faster than their less savvy competitors. And Botswana and Uruguay maintain unique ID and trace-back systems for livestock that fulfill requirements for beef exports to the EU, while making the production process more efficient. When fully automated internet-based services drive marginal transaction costs to zero, the consequences for market structure are somewhat ambiguous. Low marginal costs imply large economies of scale, which favor natural monopolies.",
+            "metadata": {
+              "end_char": 777,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 0,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.283520351027328,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "5442f7b3175060535ed13318816cb620c2d8c395918421add931f778aa102e96",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 16,
+            "text": "To maximize the digital dividends requires better understanding of how technology interacts with other factors that are important for development—what the Report calls “analog complements.” Digital technol- ogies can make routine, transaction-intensive tasks dramatically cheaper, faster, and more convenient. But most tasks also have an aspect that cannot be auto- mated and that requires human judgment, intuition, and discretion. When technology is applied to auto- mate tasks without matching improvements in the complements, it can fail to bring broad-based gains. The digital revolution can give rise to new business models that would benefit consumers, but not when incumbents control market entry. Technology can make workers more productive, but not when they lack the know-how to use it.",
+            "metadata": {
+              "end_char": 797,
+              "language": "en",
+              "sections": [
+                "overview"
+              ],
+              "start_char": 0,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.23571862188731796,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 24\n In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in\n\n[5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 25\nreal-time supply chain management to keep inventory costs low. Vietnamese firms using e-commerce had on average 3.6 percentage point higher TFP growth than firms that did not use it (figure O.11). Chinese car com- panies that are more sophisticated users of the inter- net turn over their inventory stocks five times faster than their less savvy competitors. And Botswana and Uruguay maintain unique ID and trace-back systems for livestock that fulfill requirements for beef exports to the EU, while making the production process more efficient. When fully automated internet-based services drive marginal transaction costs to zero, the consequences for market structure are somewhat ambiguous. Low marginal costs imply large economies of scale, which favor natural monopolies.\n\n[5442f7b3175060535ed13318816cb620c2d8c395918421add931f778aa102e96]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 16\nTo maximize the digital dividends requires better understanding of how technology interacts with other factors that are important for development—what the Report calls “analog complements.” Digital technol- ogies can make routine, transaction-intensive tasks dramatically cheaper, faster, and more convenient. But most tasks also have an aspect that cannot be auto- mated and that requires human judgment, intuition, and discretion. When technology is applied to auto- mate tasks without matching improvements in the complements, it can fail to bring broad-based gains. The digital revolution can give rise to new business models that would benefit consumers, but not when incumbents control market entry. Technology can make workers more productive, but not when they lack the know-how to use it.",
+        "context_ids": [
+          "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+          "5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496",
+          "5442f7b3175060535ed13318816cb620c2d8c395918421add931f778aa102e96"
+        ],
+        "embedding_usage": {
+          "embedding_model": "text-embedding-3-small",
+          "cache_hit": false,
+          "api_requests": 1,
+          "total_tokens": 20
+        },
+        "component_trace": null,
+        "elapsed_seconds": 0.49924710000050254
+      },
+      {
+        "event": "model",
+        "step": 2,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1349,
+          "completion_tokens": 62,
+          "total_tokens": 1411,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.5476953000033973,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_qwzobsWBmX7fVGR2ycQn2vzA",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"abstain\",\"answer\":\"The indexed World Bank report from 2016 mentions that UPS uses intelligent routing algorithms to avoid left turns, saving time and fuel, but it does not provide the exact implementation source code for this routing algorithm.\",\"citations\":[]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "finish",
+        "arguments": {
+          "status": "abstain",
+          "answer": "The indexed World Bank report from 2016 mentions that UPS uses intelligent routing algorithms to avoid left turns, saving time and fuel, but it does not provide the exact implementation source code for this routing algorithm.",
+          "citations": []
+        }
+      }
+    ],
+    "search_count": 1,
+    "final_context": "[210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 24\n In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in\n\n[5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 25\nreal-time supply chain management to keep inventory costs low. Vietnamese firms using e-commerce had on average 3.6 percentage point higher TFP growth than firms that did not use it (figure O.11). Chinese car com- panies that are more sophisticated users of the inter- net turn over their inventory stocks five times faster than their less savvy competitors. And Botswana and Uruguay maintain unique ID and trace-back systems for livestock that fulfill requirements for beef exports to the EU, while making the production process more efficient. When fully automated internet-based services drive marginal transaction costs to zero, the consequences for market structure are somewhat ambiguous. Low marginal costs imply large economies of scale, which favor natural monopolies.\n\n[5442f7b3175060535ed13318816cb620c2d8c395918421add931f778aa102e96]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 16\nTo maximize the digital dividends requires better understanding of how technology interacts with other factors that are important for development—what the Report calls “analog complements.” Digital technol- ogies can make routine, transaction-intensive tasks dramatically cheaper, faster, and more convenient. But most tasks also have an aspect that cannot be auto- mated and that requires human judgment, intuition, and discretion. When technology is applied to auto- mate tasks without matching improvements in the complements, it can fail to bring broad-based gains. The digital revolution can give rise to new business models that would benefit consumers, but not when incumbents control market entry. Technology can make workers more productive, but not when they lack the know-how to use it.",
+    "context_ids": [
+      "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+      "5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496",
+      "5442f7b3175060535ed13318816cb620c2d8c395918421add931f778aa102e96"
+    ],
+    "context_chunks": [
+      {
+        "id": "210ca4fd9cbc77a1d396c5803e4980f5e6bd01cb6b8ceb4401ed14e5163e948d",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 24,
+        "text": " In the airline industry, sophisticated reservation and pricing algorithms increased load factors by about one-third for U.S. domestic flights between 1993 and 2007. The parcel delivery company UPS famously uses intelligent routing algorithms to avoid left turns, saving time and about 4.5 million liters of petrol per year. Many retailers now integrate their suppliers in",
+        "metadata": {
+          "end_char": 4125,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 3753,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.5068078995684717,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "5e7828b8cde491f23872d50fee09ac38276ae87f0ceb483aa90fa87ad4901496",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 25,
+        "text": "real-time supply chain management to keep inventory costs low. Vietnamese firms using e-commerce had on average 3.6 percentage point higher TFP growth than firms that did not use it (figure O.11). Chinese car com- panies that are more sophisticated users of the inter- net turn over their inventory stocks five times faster than their less savvy competitors. And Botswana and Uruguay maintain unique ID and trace-back systems for livestock that fulfill requirements for beef exports to the EU, while making the production process more efficient. When fully automated internet-based services drive marginal transaction costs to zero, the consequences for market structure are somewhat ambiguous. Low marginal costs imply large economies of scale, which favor natural monopolies.",
+        "metadata": {
+          "end_char": 777,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 0,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.283520351027328,
+        "rank": 2,
+        "method": "dense"
+      },
+      {
+        "id": "5442f7b3175060535ed13318816cb620c2d8c395918421add931f778aa102e96",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 16,
+        "text": "To maximize the digital dividends requires better understanding of how technology interacts with other factors that are important for development—what the Report calls “analog complements.” Digital technol- ogies can make routine, transaction-intensive tasks dramatically cheaper, faster, and more convenient. But most tasks also have an aspect that cannot be auto- mated and that requires human judgment, intuition, and discretion. When technology is applied to auto- mate tasks without matching improvements in the complements, it can fail to bring broad-based gains. The digital revolution can give rise to new business models that would benefit consumers, but not when incumbents control market entry. Technology can make workers more productive, but not when they lack the know-how to use it.",
+        "metadata": {
+          "end_char": 797,
+          "language": "en",
+          "sections": [
+            "overview"
+          ],
+          "start_char": 0,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.23571862188731796,
+        "rank": 3,
+        "method": "dense"
+      }
+    ],
+    "elapsed_seconds": 3.080970299997716,
+    "query_id": "test_u01",
+    "question": "What exact implementation source code does the indexed report provide for UPS's routing algorithm that avoids left turns?"
+  },
+  {
+    "status": "abstain",
+    "answer": "The indexed report states that Nigeria's e-ID revealed 62,000 public sector ghost workers but does not provide the full names of these workers.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model",
+        "step": 1,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 487,
+          "completion_tokens": 30,
+          "total_tokens": 517,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.0207006999989972,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_bzN96wrAD0EbaSPf1rCJXly1",
+              "type": "function",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"full names of all 62,000 public-sector ghost workers identified by Nigeria's e-ID\"}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_bzN96wrAD0EbaSPf1rCJXly1",
+        "arguments": {
+          "query": "full names of all 62,000 public-sector ghost workers identified by Nigeria's e-ID"
+        },
+        "proposed_query": "full names of all 62,000 public-sector ghost workers identified by Nigeria's e-ID",
+        "query": "What are the full names of all 62,000 public-sector ghost workers identified by Nigeria's e-ID in the indexed report?",
+        "filters": null,
+        "results": [
+          {
+            "id": "a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 29,
+            "text": " Where civil registration systems are weak or non- existent, many of the poor are simply not counted. Digital identification can help overcome barriers to participation. Many countries have introduced general- purpose digital identity (ID) schemes or specific systems for elections or to manage postcon- flict transfers—with numerous benefits, including making the public sector more efficient. Nearly 900 million Indians have been issued digital IDs in the past five years, which they are using to open bank accounts, monitor attendance of civil servants, and identify recipients of government subsidies. Nigeria’s e-ID revealed 62,000 public sector “ghost workers,” saving US$1 billion annually.",
+            "metadata": {
+              "end_char": 1400,
+              "language": "en",
+              "sections": [
+                "digital_dividends"
+              ],
+              "start_char": 703,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.5244645771293313,
+            "rank": 1,
+            "method": "dense"
+          },
+          {
+            "id": "4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 18,
+            "text": " And 148 of them had some form of digital identification, and 20 had multipurpose digital iden- tification platforms. So far, developing countries have invested more in automating back-office functions than in services directed at citizens and businesses. The lives of the majority of the world’s people remain largely untouched by the digital revolution. Only around 15 percent can afford access to broadband internet. Mobile phones, reaching almost four-fifths of the world’s people, provide the main form of inter- net access in developing countries. But even then, nearly 2 billion people do not own a mobile phone, and nearly 60 percent of the world’s population has no access to the internet. The world’s offline population is",
+            "metadata": {
+              "end_char": 2975,
+              "language": "en",
+              "sections": [
+                "digital_divides"
+              ],
+              "start_char": 2243,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.35037165222753597,
+            "rank": 2,
+            "method": "dense"
+          },
+          {
+            "id": "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c",
+            "source_id": "world_bank_wdr2016_overview",
+            "source": "world_bank_digital_dividends_2016_overview.pdf",
+            "page": 18,
+            "text": " But adoption rates for more sophisti- cated technologies such as secure servers, enterprise network, inventory management, and e-commerce are much lower in most developing countries. Governments are increasingly going digital, and a greater share of government jobs in developing coun- tries is ICT-intensive than in the private sector. By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create per- sonal online accounts, 73 to file income taxes, and 60 to register a business. For the most common core gov- ernment administrative systems, 190 member states had automated financial management, 179 used such systems for customs processing, and 159 for tax man- agement.",
+            "metadata": {
+              "end_char": 2243,
+              "language": "en",
+              "sections": [
+                "digital_divides"
+              ],
+              "start_char": 1518,
+              "review_status": "pending",
+              "chunking_method": "sentence_aware",
+              "embedding_model": "text-embedding-3-small",
+              "publication_year": 2016,
+              "extraction_method": "ElenaBasic_body_text"
+            },
+            "score": 0.3284055666686032,
+            "rank": 3,
+            "method": "dense"
+          }
+        ],
+        "context": "[a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 29\n Where civil registration systems are weak or non- existent, many of the poor are simply not counted. Digital identification can help overcome barriers to participation. Many countries have introduced general- purpose digital identity (ID) schemes or specific systems for elections or to manage postcon- flict transfers—with numerous benefits, including making the public sector more efficient. Nearly 900 million Indians have been issued digital IDs in the past five years, which they are using to open bank accounts, monitor attendance of civil servants, and identify recipients of government subsidies. Nigeria’s e-ID revealed 62,000 public sector “ghost workers,” saving US$1 billion annually.\n\n[4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 18\n And 148 of them had some form of digital identification, and 20 had multipurpose digital iden- tification platforms. So far, developing countries have invested more in automating back-office functions than in services directed at citizens and businesses. The lives of the majority of the world’s people remain largely untouched by the digital revolution. Only around 15 percent can afford access to broadband internet. Mobile phones, reaching almost four-fifths of the world’s people, provide the main form of inter- net access in developing countries. But even then, nearly 2 billion people do not own a mobile phone, and nearly 60 percent of the world’s population has no access to the internet. The world’s offline population is\n\n[b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 18\n But adoption rates for more sophisti- cated technologies such as secure servers, enterprise network, inventory management, and e-commerce are much lower in most developing countries. Governments are increasingly going digital, and a greater share of government jobs in developing coun- tries is ICT-intensive than in the private sector. By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create per- sonal online accounts, 73 to file income taxes, and 60 to register a business. For the most common core gov- ernment administrative systems, 190 member states had automated financial management, 179 used such systems for customs processing, and 159 for tax man- agement.",
+        "context_ids": [
+          "a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605",
+          "4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7",
+          "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c"
+        ],
+        "embedding_usage": {
+          "embedding_model": "text-embedding-3-small",
+          "cache_hit": false,
+          "api_requests": 1,
+          "total_tokens": 26
+        },
+        "component_trace": null,
+        "elapsed_seconds": 0.4719478999977582
+      },
+      {
+        "event": "model",
+        "step": 2,
+        "model": "gpt-4.1-mini-2025-04-14",
+        "finish_reason": "tool_calls",
+        "usage": {
+          "prompt_tokens": 1461,
+          "completion_tokens": 50,
+          "total_tokens": 1511,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "elapsed_seconds": 1.2666016000002855,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "tool_calls": [
+            {
+              "id": "call_6RrS56G6dseDVJW2maLUFZC2",
+              "type": "function",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"abstain\",\"answer\":\"The indexed report states that Nigeria's e-ID revealed 62,000 public sector ghost workers but does not provide the full names of these workers.\",\"citations\":[]}"
+              }
+            }
+          ],
+          "refusal": null,
+          "annotations": []
+        }
+      },
+      {
+        "event": "finish",
+        "arguments": {
+          "status": "abstain",
+          "answer": "The indexed report states that Nigeria's e-ID revealed 62,000 public sector ghost workers but does not provide the full names of these workers.",
+          "citations": []
+        }
+      }
+    ],
+    "search_count": 1,
+    "final_context": "[a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 29\n Where civil registration systems are weak or non- existent, many of the poor are simply not counted. Digital identification can help overcome barriers to participation. Many countries have introduced general- purpose digital identity (ID) schemes or specific systems for elections or to manage postcon- flict transfers—with numerous benefits, including making the public sector more efficient. Nearly 900 million Indians have been issued digital IDs in the past five years, which they are using to open bank accounts, monitor attendance of civil servants, and identify recipients of government subsidies. Nigeria’s e-ID revealed 62,000 public sector “ghost workers,” saving US$1 billion annually.\n\n[4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 18\n And 148 of them had some form of digital identification, and 20 had multipurpose digital iden- tification platforms. So far, developing countries have invested more in automating back-office functions than in services directed at citizens and businesses. The lives of the majority of the world’s people remain largely untouched by the digital revolution. Only around 15 percent can afford access to broadband internet. Mobile phones, reaching almost four-fifths of the world’s people, provide the main form of inter- net access in developing countries. But even then, nearly 2 billion people do not own a mobile phone, and nearly 60 percent of the world’s population has no access to the internet. The world’s offline population is\n\n[b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c]\nSource: world_bank_digital_dividends_2016_overview.pdf\nPDF page: 18\n But adoption rates for more sophisti- cated technologies such as secure servers, enterprise network, inventory management, and e-commerce are much lower in most developing countries. Governments are increasingly going digital, and a greater share of government jobs in developing coun- tries is ICT-intensive than in the private sector. By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create per- sonal online accounts, 73 to file income taxes, and 60 to register a business. For the most common core gov- ernment administrative systems, 190 member states had automated financial management, 179 used such systems for customs processing, and 159 for tax man- agement.",
+    "context_ids": [
+      "a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605",
+      "4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7",
+      "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c"
+    ],
+    "context_chunks": [
+      {
+        "id": "a1d363b6ab6bb9c7560b777886a28be43862602f614c5f2c5b50b0ae37157605",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 29,
+        "text": " Where civil registration systems are weak or non- existent, many of the poor are simply not counted. Digital identification can help overcome barriers to participation. Many countries have introduced general- purpose digital identity (ID) schemes or specific systems for elections or to manage postcon- flict transfers—with numerous benefits, including making the public sector more efficient. Nearly 900 million Indians have been issued digital IDs in the past five years, which they are using to open bank accounts, monitor attendance of civil servants, and identify recipients of government subsidies. Nigeria’s e-ID revealed 62,000 public sector “ghost workers,” saving US$1 billion annually.",
+        "metadata": {
+          "end_char": 1400,
+          "language": "en",
+          "sections": [
+            "digital_dividends"
+          ],
+          "start_char": 703,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.5244645771293313,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "4ed4ba241dcaf7ec6c8f25d849fd0bf72e73e01a30e75127ddbfef637f4214b7",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 18,
+        "text": " And 148 of them had some form of digital identification, and 20 had multipurpose digital iden- tification platforms. So far, developing countries have invested more in automating back-office functions than in services directed at citizens and businesses. The lives of the majority of the world’s people remain largely untouched by the digital revolution. Only around 15 percent can afford access to broadband internet. Mobile phones, reaching almost four-fifths of the world’s people, provide the main form of inter- net access in developing countries. But even then, nearly 2 billion people do not own a mobile phone, and nearly 60 percent of the world’s population has no access to the internet. The world’s offline population is",
+        "metadata": {
+          "end_char": 2975,
+          "language": "en",
+          "sections": [
+            "digital_divides"
+          ],
+          "start_char": 2243,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.35037165222753597,
+        "rank": 2,
+        "method": "dense"
+      },
+      {
+        "id": "b2ce1cceb9601d97eba8a2cc2a27f5ecb88bb26a618a0dcb989ace7ac0465a1c",
+        "source_id": "world_bank_wdr2016_overview",
+        "source": "world_bank_digital_dividends_2016_overview.pdf",
+        "page": 18,
+        "text": " But adoption rates for more sophisti- cated technologies such as secure servers, enterprise network, inventory management, and e-commerce are much lower in most developing countries. Governments are increasingly going digital, and a greater share of government jobs in developing coun- tries is ICT-intensive than in the private sector. By 2014, all 193 member states of the United Nations (UN) had national websites: 101 enabled citizens to create per- sonal online accounts, 73 to file income taxes, and 60 to register a business. For the most common core gov- ernment administrative systems, 190 member states had automated financial management, 179 used such systems for customs processing, and 159 for tax man- agement.",
+        "metadata": {
+          "end_char": 2243,
+          "language": "en",
+          "sections": [
+            "digital_divides"
+          ],
+          "start_char": 1518,
+          "review_status": "pending",
+          "chunking_method": "sentence_aware",
+          "embedding_model": "text-embedding-3-small",
+          "publication_year": 2016,
+          "extraction_method": "ElenaBasic_body_text"
+        },
+        "score": 0.3284055666686032,
+        "rank": 3,
+        "method": "dense"
+      }
+    ],
+    "elapsed_seconds": 2.759355299996969,
+    "query_id": "test_u02",
+    "question": "What are the full names of all 62,000 public-sector ghost workers identified by Nigeria's e-ID in the indexed report?"
+  }
+]

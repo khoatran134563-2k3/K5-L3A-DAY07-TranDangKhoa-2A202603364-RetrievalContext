@@ -1,0 +1,17 @@
+{
+  "config": "dense_baseline",
+  "cases": 17,
+  "answered_status": 17,
+  "abstain_status": 0,
+  "errors": 0,
+  "tool_use": {
+    "n": 17,
+    "N": 17
+  },
+  "model_responses_received": 51,
+  "model_prompt_tokens": 59736,
+  "model_completion_tokens": 4431,
+  "citation_validation_failures": 17,
+  "elapsed_seconds": 80.255651700003,
+  "quality_metrics": "Pending human review."
+}

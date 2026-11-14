@@ -1,0 +1,52 @@
+{
+  "created_at_utc": "2026-11-14T16:01:45.812031+00:00",
+  "split": "test",
+  "answerable": 5,
+  "unanswerable": 2,
+  "test_sha256": "e39b4f8643514c8dc653092cde107d9973a5c326d60af2a056fe723245465ebd",
+  "selection_sha256": "db91ed829b4e1073ce5f11566e00e42832c8ec2da443c9ba327b41051ef05e91",
+  "corpus_sha256": "63390ab781a728049fe1b3b22a455612643bc89bb107c9fe5e868439da5c2622",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "baseline": {
+    "name": "dense_baseline",
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget": 2600,
+      "max_searches": 3
+    }
+  },
+  "selected": {
+    "name": "hybrid_rrf",
+    "config": {
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 2600,
+      "max_searches": 3
+    },
+    "candidate_k_per_method": 10,
+    "rrf_k": 60
+  },
+  "code_sha256": {
+    "rag_agent.py": "563f3a8ffaeb1bb020caa6269a6dbe968b70927cd9f59862211637e1cd495a87",
+    "dense_retrieval.py": "04b4ed11202b215a32e44b5e74319d171209b520a0f3052041246296cdafb348",
+    "lexical_retrieval.py": "644c1c7a9c6a9edb0397e31ea27e03454c40cb15eb0a386f3114bcee5446ed09",
+    "hybrid_retrieval.py": "4043f2cb6a59779543914b326acc3eb016b97b5b53bee8a3fb8a27e1d8b24428",
+    "benchmark_retrieval.py": "b94fff96962b944126e4af6f77bed23928b591b9e465fc06ee3fbd7c80d7b4a0",
+    "run_agent_dev.py": "d1d3102fe82276d8d502f9b098fa6f97e921a80d6c5fd5887557d8f1d520d5bf"
+  },
+  "test_execution_status_at_creation": "not_run",
+  "grading": {
+    "answer_grade": "0 incorrect/unsupported; 1 partial; 2 correct and complete",
+    "citation_support": "Check each citation against the actual context and associated claims.",
+    "abstention": "Decline the unsupported request without inventing code or names or substituting related aggregate facts.",
+    "context_grade": "For answerable cases: 0 absent; 1 incomplete; 2 sufficient evidence and source."
+  },
+  "limitations": [
+    "Small test set, mostly single-passage factual questions.",
+    "Some pages/chunks overlap dev, but requested facts differ.",
+    "Exact-question duplication is checked by code; semantic distinction was reviewed during preparation.",
+    "No gold or labels may enter the agent or retrieval.",
+    "Do not tune the implementation using test outputs."
+  ]
+}

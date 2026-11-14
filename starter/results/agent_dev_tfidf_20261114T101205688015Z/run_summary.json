@@ -1,0 +1,17 @@
+{
+  "config": "tfidf",
+  "cases": 17,
+  "answered_status": 12,
+  "abstain_status": 2,
+  "errors": 3,
+  "tool_use": {
+    "n": 14,
+    "N": 14
+  },
+  "model_responses_received": 68,
+  "model_prompt_tokens": 75593,
+  "model_completion_tokens": 7880,
+  "citation_validation_failures": 17,
+  "elapsed_seconds": 114.0077440999994,
+  "quality_metrics": "Pending human review."
+}

@@ -1,0 +1,46 @@
+{
+  "status": "preliminary_pending_source_review",
+  "benchmark_sha256": "caa87581a1fca84eeaa20c71cd5cbe3f09470bceaa71fa49a1396dfa33978356",
+  "corpus_sha256": "63390ab781a728049fe1b3b22a455612643bc89bb107c9fe5e868439da5c2622",
+  "split": "dev",
+  "filters": "disabled consistently for all methods",
+  "context_budget_unit": "characters including source headers",
+  "context_policy": "rank order, deduplicate, skip blocks that do not fit",
+  "configs": [
+    {
+      "name": "dense_baseline",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 2600,
+      "hypothesis": "Baseline."
+    },
+    {
+      "name": "tfidf",
+      "method": "tfidf",
+      "top_k": 3,
+      "budget": 2600,
+      "hypothesis": "Lexical matching may retrieve precise terms."
+    },
+    {
+      "name": "hybrid_rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 2600,
+      "hypothesis": "Combining rankings may improve evidence retrieval."
+    },
+    {
+      "name": "dense_more_context",
+      "method": "dense",
+      "top_k": 6,
+      "budget": 5200,
+      "hypothesis": "More chunks may retain supporting evidence."
+    }
+  ],
+  "hybrid": {
+    "candidate_k": 10,
+    "rrf_k": 60
+  },
+  "metrics": "Gold quote match at source/page; q11 requires both IDs. Unanswerable cases excluded from retrieval denominators. Errors remain in answerable denominators as misses.",
+  "selection_rule": "After source review and real-agent evaluation: prioritize grounded answer quality, then context evidence, then Hit@3, then lower measured cost and latency. Do not use test to tune.",
+  "limitations": "No answer model, citation grading or abstention grading yet. Gold alternatives may be incomplete. Cached and uncached latencies must not be treated as equivalent."
+}

@@ -1,0 +1,16 @@
+{
+  "origin": "Day 6 strategy B",
+  "document_context": "World Bank WDR 2016 Overview",
+  "chunk_count": 132,
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "database_table": "day6_chunks",
+  "database_strategy": "B",
+  "input_chunks_sha256": "ce3e7e674211d8266220884cb82daf688ed9fffe5faad7f57fe26d22569f3bdf",
+  "input_questions_sha256": "40e7afc36a66af41e53d5dfc6a34c00c60a6be53c5f0f05649a3e75da83251ed",
+  "question_counts": {
+    "dev": 15,
+    "test": 5
+  },
+  "benchmark_status": "Seed only. Add unanswerable cases, verify evidence against the original source, and document test reuse before final evaluation."
+}

@@ -1,0 +1,204 @@
+{
+  "status": "proposal_not_final_human_labels",
+  "reviews": [
+    {
+      "query_id": "q01",
+      "citation_support": [
+        true,
+        false
+      ],
+      "context_grade": 2,
+      "reason": "Đáp án được chunk db854b66 trang PDF 30 hỗ trợ đầy đủ. Citation thứ hai tới chunk 5442f7b3 trang 16 chỉ nói chung về analog complements, chưa chứng minh điều kiện accountable institutions. Vì vậy câu trả lời đạt mức 2 nhưng citation_support là [true, false].",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q02",
+      "citation_support": [
+        true,
+        true
+      ],
+      "context_grade": 1,
+      "reason": "Các chunk trang PDF 31 và 48 hỗ trợ nội dung về sự thống trị thị trường, mua lại đối thủ và nguy cơ gây hại cho cạnh tranh. Tuy nhiên, context chưa thiết lập trực tiếp quan hệ với điều kiện thiếu môi trường kinh doanh cạnh tranh trong câu hỏi. Chấm câu trả lời và context mức 1; hai citation hỗ trợ các nội dung riêng được dẫn.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 1
+    },
+    {
+      "query_id": "q03",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 16; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q04",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 18; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q05",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 19; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q06",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 20; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q07",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 21, 22; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q08",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 23; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q09",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 24; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q10",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 25; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q11",
+      "citation_support": [
+        false
+      ],
+      "context_grade": 1,
+      "reason": "The 3–5% value is correct. The declared rule requires both the ICT antecedent and employment-value chunks. Both in context: False. The final answer cites only the value chunk, so the citation does not cover the complete evidence group.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 1
+    },
+    {
+      "query_id": "q12",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 27; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q13",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 29; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q14",
+      "citation_support": [
+        true,
+        true
+      ],
+      "context_grade": 2,
+      "reason": "Core answer agrees with the source text on PDF page(s) 31, 44; review the cited passage against the associated claims.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 2
+    },
+    {
+      "query_id": "q15",
+      "citation_support": [
+        false
+      ],
+      "context_grade": 2,
+      "reason": "Context đủ để trả lời quan hệ giữa lương thấp và đầu tư công nghệ kém sinh lời. Tuy nhiên, câu trả lời bổ sung nhận định về mức sử dụng ICT thấp, trong khi citation chỉ trỏ tới chunk 935bb625 và chưa hỗ trợ đầy đủ ý bổ sung đó.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "answer_grade": 1
+    },
+    {
+      "query_id": "dev_u02",
+      "citation_support": [],
+      "context_grade": null,
+      "reason": "The final response declines to provide the requested 2025 statistic without substituting historical values. Related source examples are in the 2016 report.",
+      "review_status": "user_reviewed",
+      "review_basis": "Saved answer, actual context, citations and exported original-PDF text. Not an LLM-judge score.",
+      "user_confirmed": true,
+      "abstention_correct": true
+    }
+  ],
+  "errors_reported_separately": [
+    {
+      "query_id": "dev_u01",
+      "error": "Abstention must have no citations."
+    }
+  ]
+}
