@@ -32,7 +32,7 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
 
-## B�i n?p c� nh�n
+## Bài nộp cá nhân
 
-- [Hu?ng d?n ch?y v� d?c k?t qu?](RUN_STUDENT.md)
-- [B�o c�o Tr?n �ang Khoa](report/individual/2A202603364_TranDangKhoa.md)
+- [Hướng dẫn chạy và đọc kết quả](RUN_STUDENT.md)
+- [Báo cáo Trần Đăng Khoa](report/individual/2A202603364_TranDangKhoa.md)
